@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import Image from 'next/image'
+import React from 'react'
 import NavItem from './NavItem'
 
 export default function Header({ handleMenuToggle }) {
@@ -24,7 +23,7 @@ export default function Header({ handleMenuToggle }) {
                     <NavItem title="Comisisons" link="/comisisons" />
                     <NavItem title="Daily Drawings" link="/daily-drawings" />
                     <NavItem title="Exhibitions" link="/exhibitions" />
-                    <NavItem title="Merch" link="/merch" />
+                    <NavItem title="Merch" link="https://www.sentimentalskull.com/" />
                     <NavItem title="About" link="/about" />
                 </ul>
             </nav >

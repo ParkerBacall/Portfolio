@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+
 export default function NavItem({ title, link }) {
     return (
         <li className='p-2'>
@@ -7,9 +8,7 @@ export default function NavItem({ title, link }) {
                 <Link href={link}>
                     {title}
                 </Link>
-
-            </button>
-
+            </button >
         </li>
     )
 }
