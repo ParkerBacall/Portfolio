@@ -55,7 +55,7 @@ export default function ImageSlideshow({ }) {
         <div ref={sliderRef} className="keen-slider">
 
             <CustomImage
-                image=' https://res.cloudinary.com/dpdnba5be/image/upload/v1680493837/thisWillEND_puh9ym.png'
+                image='https://res.cloudinary.com/dpdnba5be/image/upload/v1680743856/thisWillEND_axjmi6.png'
                 title='This will end' />
 
             <CustomImage
