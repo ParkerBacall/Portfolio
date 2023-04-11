@@ -33,7 +33,6 @@ export default function App({ Component, pageProps }) {
           <NavItem title="Animations" link="/animations" />
           <NavItem title="Prints" link="/prints" />
           <NavItem title="Murals" link="/Murals" />
-          <NavItem title="Comisisons" link="/comisisons" />
           <NavItem title="Daily Drawings" link="/daily-drawings" />
           <NavItem title="Exhibitions" link="/exhibitions" />
           <NavItem title="Merch" link="/merch" />

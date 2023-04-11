@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import NavItem from './NavItem'
 
@@ -13,14 +14,17 @@ export default function Header({ handleMenuToggle }) {
                         <rect className="rounded" y="30" width="100" height="15"></rect>
                         <rect className="rounded" y="60" width="100" height="15"></rect>
                     </svg></button>
-                <h1 className="text-3xl p-4 font-bold">Parker Bacall</h1>
+                <h1 className="text-3xl p-4 font-bold">
+                    <Link href="/">
+                    Parker Bacall
+                    </Link>
+                    </h1>
                 <ul  className="flex justify-evenly items-center hidden lg:flex">
-                    <NavItem title="Digital Illustration" link="/digitial-illustration" />
+                    <NavItem title="Digital Illustrations" link="/digital-illustrations" />
                     <NavItem title="Paintings" link="/paintings" />
                     <NavItem title="Animations" link="/animations" />
                     <NavItem title="Prints" link="/prints" />
-                    <NavItem title="Murals" link="/Murals" />
-                    <NavItem title="Comisisons" link="/comisisons" />
+                    <NavItem title="Murals" link="/murals" />
                     <NavItem title="Daily Drawings" link="/daily-drawings" />
                     <NavItem title="Exhibitions" link="/exhibitions" />
                     <NavItem title="Merch" link="https://www.sentimentalskull.com/" />

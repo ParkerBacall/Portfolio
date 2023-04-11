@@ -8,7 +8,7 @@ export default function NavItem({ title, link }) {
                 <Link href={link}>
                     {title}
                 </Link>
-            </button >
+            </button>
         </li>
     )
 }
