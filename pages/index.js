@@ -2,7 +2,9 @@ import Head from 'next/head'
 import React from 'react'
 import ImageSlideshow from '../components/ImageSlideshow'
 
-export default function Home() {
+
+export default 
+ function Home() {
   
 
   return (
@@ -13,9 +15,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <div>
       <ImageSlideshow/>
-      </main>
+      <p className='text-center my-[20px]'>
+        Site is currently in progress
+      </p>
+      </div>
     </>
   )
 }

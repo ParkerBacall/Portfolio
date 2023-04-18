@@ -4,6 +4,13 @@ import '../styles/globals.css'
 import Header from '../components/Header'
 import NavItem from '../components/NavItem'
 
+import localFont from '@next/font/local'
+
+const myFont = localFont({
+   src: '../fonts/JosefinSans.ttf',
+   variable: '--font-josefin'
+})
+
 export default function App({ Component, pageProps }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -17,7 +24,7 @@ export default function App({ Component, pageProps }) {
     }
   }
   return (
-    <>
+    <main className={`${myFont.variable} font-josefin font-light`}>
       <div className={`z-1 fixed inset-0 bg-gray-900 inset-0 transition-opacity duration-300
                ${isMenuOpen ? 'bg-opacity-75 z-20' : 'bg-opacity-0 z-1'}`
       }
@@ -44,6 +51,6 @@ export default function App({ Component, pageProps }) {
       <div className='pt-[80px] mx-auto w-[95%]'>
         <Component {...pageProps} />
       </div>
-    </>
+    </main>
   )
 }

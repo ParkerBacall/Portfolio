@@ -6,7 +6,11 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        josefin: ['var(--font-josefin)']
+      }
+    },
   },
   plugins: [],
 }
