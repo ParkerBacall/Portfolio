@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import ImageSlideshow from '../components/ImageSlideshow'
+import ImageGrid from '../components/ImageGrid'
 
 
 export default 
@@ -16,10 +16,7 @@ export default
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-      <ImageSlideshow/>
-      <p className='text-center my-[20px]'>
-        Site is currently in progress
-      </p>
+        <ImageGrid/>
       </div>
     </>
   )
