@@ -6,8 +6,6 @@ import { homeImages } from '../data.js'
 export default 
  function Home() {
   
-  console.log(homeImages)
-
   return (
     <>
       <Head>

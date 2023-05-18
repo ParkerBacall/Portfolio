@@ -38,9 +38,10 @@ export const homeImages = [
 
 
   
-//   export function getFeaturedEvents() {
-//     return DUMMY_EVENTS.filter((event) => event.isFeatured);
-//   }
+  export function getImageByHandle(handle) {
+    console.log(handle)
+    return homeImages.filter((image) => image.handle === '/'+handle)[0];
+  }
   
 //   export function getAllEvents() {
 //     return DUMMY_EVENTS;
