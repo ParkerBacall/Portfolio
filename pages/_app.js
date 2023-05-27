@@ -32,23 +32,23 @@ export default function App({ Component, pageProps }) {
       >
         <aside
           className=
-          {`transform top-0 opacity-1 list-none left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30
+          {`transform top-[106px] opacity-1 list-none left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30
                 ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`
           }>
-          <NavItem title="Digital Illustration" link="/digitial-illustration" />
+          <NavItem title="Digital Illustrations" link="/digitial-illustrations" />
           <NavItem title="Paintings" link="/paintings" />
           <NavItem title="Animations" link="/animations" />
+          <NavItem title="Illustraitions" link="/illustrations" />
           <NavItem title="Prints" link="/prints" />
+          <NavItem title="Designs " link="/Designs" />
           <NavItem title="Murals" link="/Murals" />
-          <NavItem title="Daily Drawings" link="/daily-drawings" />
-          <NavItem title="Exhibitions" link="/exhibitions" />
           <NavItem title="Merch" link="/merch" />
           <NavItem title="About" link="/about" />
         </aside>
       </div>
 
       <Header handleMenuToggle={handleMenuToggle} />
-      <div className='pt-[80px] mx-auto w-[95%]'>
+      <div className='pt-[140px] mx-auto w-[95%]'>
         <Component {...pageProps} />
       </div>
     </main>

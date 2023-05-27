@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import React from 'react'
 import ImageGrid from '../components/ImageGrid'
-import { homeImages } from '../data.js'
-
+import { images } from '../Data'
 export default 
  function Home() {
+
+  const homeImages = images.filter(image => {
+    return image.categories.includes('home')
+  }) 
   
   return (
     <>

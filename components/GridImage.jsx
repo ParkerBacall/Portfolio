@@ -18,8 +18,8 @@ export default function GridImage({ image, title, link }) {
             <div className="h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
             >
                 <Link href={link ? link : '/'}>
-                <div className={`z-10 absolute bg-black/40 h-full w-full items-center justify-center ${isHighlighted ?'flex': 'hidden'}`}>
-                    <span className='text-white'>{title}</span>
+                <div className={`font-medium z-10 absolute h-full w-full flex items-center justify-center ${isHighlighted ?'bg-black/40 text-white': 'bg-black/0 text-transparent'}`}>
+                    <span>{title}</span>
                 </div>
                 <Image src={image}
                     width={500}

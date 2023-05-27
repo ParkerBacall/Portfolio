@@ -4,5 +4,10 @@
 
 img {
     object-fit: contain;
+    transition: all 0.5s;
 }
+
+div{
+    transition: all 0.5s;
+}   
 
