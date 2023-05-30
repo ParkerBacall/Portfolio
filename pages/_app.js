@@ -42,7 +42,7 @@ export default function App({ Component, pageProps }) {
           <NavItem title="Prints" link="/prints" />
           <NavItem title="Designs " link="/Designs" />
           <NavItem title="Murals" link="/Murals" />
-          <NavItem title="Merch" link="/merch" />
+          <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
           <NavItem title="About" link="/about" />
         </aside>
       </div>

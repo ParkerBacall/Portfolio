@@ -4,8 +4,6 @@ import NavItem from './NavItem'
 import Image from 'next/image'
 
 export default function Header({ handleMenuToggle }) {
-
-
     return (
         <>
             <nav className='font-josefin flex fixed w-full justify-start lg:justify-between items-center px-6 h-[110px] bg-white text-gray-700 border-b border-gray-200 z-20'>
@@ -25,7 +23,7 @@ export default function Header({ handleMenuToggle }) {
                     <NavItem title="Prints" link="/prints" />
                     <NavItem title="Designs " link="/Designs" />                   
                     <NavItem title="Murals" link="/murals" />
-                    <NavItem title="Merch" link="https://www.sentimentalskull.com/" />
+                    <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
                     <NavItem title="About" link="/about" />
                 </ul>
             </nav >

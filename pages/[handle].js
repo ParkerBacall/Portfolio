@@ -23,7 +23,7 @@ export default function DynamicPage() {
     return (
         <div className="flex w-[100%]">
             <div className="w-[50%] p-4">
-                <Image src={pageData?.src}
+                <Image src={pageData?.images[0]}
                     width={500}
                     height={500}
                     alt={pageData?.title}

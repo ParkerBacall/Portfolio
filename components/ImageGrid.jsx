@@ -6,7 +6,7 @@ export default function ImageSlideshow({ images }) {
     const gridImages = images.map((image, index) => {
         return <GridImage
             key={index}
-            image={image.src}
+            image={image.images[0]}
             title={image.title}
             link={image.handle} />
     })
