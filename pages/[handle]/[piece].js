@@ -16,7 +16,7 @@ export default function DynamicPage() {
 
     useEffect(() => {
         setImagesArray(getImagesByHandle(query.handle), [...imagesArray])
-    }, [query, imagesArray])
+    }, [query])
 
     useEffect(() => {
         imagesArray.forEach((image, index) => {
@@ -59,11 +59,11 @@ export default function DynamicPage() {
     })
 
     return (
-        <div className="flex w-[100%]">
-            <div className="w-[50%] p-4">
+        <div className="flex flex-col lg:flex-row w-[100%]">
+            <div className="w-full lg:w-[50%] p-4">
                 {images}
             </div>
-            <div className="w-[50%] p-4">
+            <div className="w-full lg:w-[50%]  p-4">
 
                 <div className="flex">
                 {category &&
@@ -81,7 +81,7 @@ export default function DynamicPage() {
                 )}
                 </div>
 
-                <h2 className="p-2 font-semibold text-[28px]">
+                <h2 className="p-2 font-semibold text-[24px] lg:text-[28px]">
                     {pageData?.title}
                 </h2>
 
