@@ -18,7 +18,7 @@ export default
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <ImageGrid images={homeImages}/>
+        <ImageGrid images={homeImages} page={'home'}/>
       </div>
     </>
   )

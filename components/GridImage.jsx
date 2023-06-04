@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
+
 
 export default function GridImage({ image, title, link }) {
+    const { asPath } = useRouter();
 
     const [isHighlighted, setIsHghlighted] = useState(false)
 
@@ -17,7 +20,7 @@ export default function GridImage({ image, title, link }) {
     return (
             <div className="h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
             >
-                <Link href={link ? link : '/'}>
+                <Link href={`${link ?  asPath+'/'+link : '/'}`}>
                 <div className={`font-medium z-10 absolute h-full w-full flex items-center justify-center ${isHighlighted ?'bg-black/40 text-white': 'bg-black/0 text-transparent'}`}>
                     <span>{title}</span>
                 </div>
