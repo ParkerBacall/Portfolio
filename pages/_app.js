@@ -35,19 +35,18 @@ export default function App({ Component, pageProps }) {
           {`transform top-[106px] opacity-1 list-none left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30
                 ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`
           }>
-          <NavItem title="Digital Illustrations" link="/digitial-illustrations" />
-          <NavItem title="Paintings" link="/paintings" />
-          <NavItem title="Animations" link="/animations" />
-          <NavItem title="Illustraitions" link="/illustrations" />
-          <NavItem title="Prints" link="/prints" />
-          <NavItem title="Designs " link="/Designs" />
-          <NavItem title="Murals" link="/Murals" />
-          <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
-          <NavItem title="About" link="/about" />
+         <NavItem title="Digital Illustrations" link="/digital-illustrations" />
+                    <NavItem title="Paintings" link="/paintings" />
+                    <NavItem title="Illustraitions" link="/illustrations" />
+                    <NavItem title="Prints" link="/prints" />
+                    <NavItem title="Designs " link="/Designs" />
+                    <NavItem title="Murals" link="/murals" />
+                    <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
+                    <NavItem title="About" link="/about" />
         </aside>
       </div>
 
-      <Header handleMenuToggle={handleMenuToggle} />
+      <Header handleMenuToggle={handleMenuToggle} isMenuOpen={isMenuOpen}/>
       <div className='pt-[140px] mx-auto w-[95%]'>
         <Component {...pageProps} />
       </div>

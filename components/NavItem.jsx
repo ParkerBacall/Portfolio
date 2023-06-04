@@ -6,7 +6,7 @@ export default function NavItem({ title, link }) {
         <li className='p-2 font-medium'>
             <button>
                 {title === 'Screen Printing' ? 
-                <a href={link} target="_blank">{title}</a>
+                <a href={link} target="_blank" rel="noreferrer" >{title}</a>
                 :
                     <Link href={link}>
                         {title}
