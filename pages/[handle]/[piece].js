@@ -1,6 +1,6 @@
 
 import { useRouter } from 'next/router'
-import { getImageByHandle, getImagesByHandle } from '../../Data.js'
+import { getImageByHandle, getImagesByHandle } from '../../data.js'
 import Image from 'next/image.js';
 import { useState, useEffect } from 'react';
 import Link from 'next/link'

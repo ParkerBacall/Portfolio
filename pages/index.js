@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import ImageGrid from '../components/ImageGrid'
-import { images } from '../Data'
+import { images } from '../data'
 export default 
  function Home() {
 
