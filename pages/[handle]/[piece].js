@@ -32,8 +32,8 @@ export default function DynamicPage() {
 
 
     if (useRouter().isReady) {
-        prevHandle = '/' + query.handle + imagesArray[currentIndex - 1]?.handle
-        nextHandle = '/' + query.handle + imagesArray[currentIndex + 1]?.handle
+        prevHandle = '/' + query.handle + imagesArray.sort((a, b) => b.year - a.year)[currentIndex - 1]?.handle
+        nextHandle = '/' + query.handle + imagesArray.sort((a, b) => b.year - a.year)[currentIndex + 1]?.handle
         category = query.handle
         if (category === 'home') {
             secondaryCategory = pageData.categories.filter(category => category !== 'home')[0]
@@ -85,9 +85,15 @@ export default function DynamicPage() {
                     {pageData?.title}
                 </h2>
 
+
+                {pageData?.medium &&
+                    <p className="p-2 text-[20px]">
+                        {pageData?.medium}
+                    </p>
+                }
+
                 {pageData?.description &&
-                    <p className="p-2 text-[18px]">
-                        {pageData?.description}
+                    <p className="p-2 text-[18px]" dangerouslySetInnerHTML={{ __html: pageData?.description }}>
                     </p>
                 }
 
@@ -99,8 +105,6 @@ export default function DynamicPage() {
                         <button className="relative font-semibold underline"> <Link href={nextHandle}> Next </Link> </button>
                     }
                 </div>
-
-
             </div>
         </div>
     )

@@ -11,3 +11,10 @@ div{
     transition: all 0.5s;
 }   
 
+a {
+    position: relative;
+}
+
+p a {
+    text-decoration: underline;
+}

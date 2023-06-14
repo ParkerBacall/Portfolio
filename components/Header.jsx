@@ -24,10 +24,12 @@ export default function Header({ handleMenuToggle, isMenuOpen }) {
                 <ul className="flex justify-evenly items-center hidden lg:flex">
                     <NavItem title="Digital Illustrations" link="/digital-illustrations" />
                     <NavItem title="Paintings" link="/paintings" />
+                    <NavItem title="Animations" link="/animations" />
                     <NavItem title="Illustraitions" link="/illustrations" />
                     <NavItem title="Prints" link="/prints" />
                     <NavItem title="Designs " link="/Designs" />
                     <NavItem title="Murals" link="/murals" />
+                    <NavItem title="Interactive" link="/interactive" />
                     <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
                     <NavItem title="About" link="/about" />
                 </ul>

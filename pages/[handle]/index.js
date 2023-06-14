@@ -7,7 +7,9 @@ import { useRouter } from 'next/router'
 export default function CategoryPage() {
     const { query } = useRouter();
 
-   const images = getImagesByHandle(query.handle)
+   let images = getImagesByHandle(query.handle);
+   images = images.sort((a, b) => b.year - a.year);
+
     return(
         <>
         <h2 className='p-2'>
