@@ -1,9 +1,10 @@
+
 import React from 'react'
 
-export default function Exhibitions() {
+export default function PageNotFound() {
     return(
         <h2 className='p-2'>
-           Exhibitions
+           Woah Page Not Found
         </h2>
     )
 }

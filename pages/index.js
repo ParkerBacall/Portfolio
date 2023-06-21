@@ -1,12 +1,16 @@
 import Head from 'next/head'
 import React from 'react'
-import ImageSlideshow from '../components/ImageSlideshow'
-
-
+import ImageGrid from '../components/ImageGrid'
+import { images } from '../data.js'
 export default 
  function Home() {
-  
 
+  let homeImages = images.filter(image => {
+    return image.categories.includes('home')
+  }) 
+
+  homeImages = homeImages.sort((a, b) => b.year - a.year);
+  
   return (
     <>
       <Head>
@@ -16,10 +20,7 @@ export default
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-      <ImageSlideshow/>
-      <p className='text-center my-[20px]'>
-        Site is currently in progress
-      </p>
+        <ImageGrid images={homeImages} page={'home'}/>
       </div>
     </>
   )
