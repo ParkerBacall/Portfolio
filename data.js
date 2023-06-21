@@ -38,6 +38,15 @@ export const images = [
     categories: ['home', 'digital-illustrations'],
     medium: 'Digital',
     description: `<p>This image was producted in multiple colorways as 16"x16" prints. Color work was done with long time friend and collaborar with Eduardo Miller, founder of <a href="https://highstoneshop.com/" rel=”noopener noreferrer” target="__blank">Highstone</a>. 2022.</p>`,
+    year: 2023
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231391/Untitled_Artwork_9_j1llfs.png'],
+    title: 'For my Love',
+    handle: "/for-my-love",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>For my Love, Peyton. 2022.</p>`,
     year: 2022
   },
   {
@@ -140,6 +149,15 @@ export const images = [
     year: 2021
   },
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231362/Untitled_Artwork_19_o0ahzk.png'],
+    title: 'Overwhelmed',
+    handle: "/overwhelmed",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>Featured in Nightmares Vol 1 Zine. 2021.</p>`,
+    year: 2021
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1684805126/Untitled_Artwork_11_znp8cv.png'],
     title: 'Freaks',
     handle: "/freaks",
@@ -147,6 +165,24 @@ export const images = [
     medium: 'Digital',
     description: `<p>Featured in Nightmares Vol 1 Zine. 2021.</p>`,
     year: 2021
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231359/IMG_6059_qcqppo.png'],
+    title: 'Over Worked',
+    handle: "/over-worked",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>Featured in Nightmares Vol 1 Zine. 2021.</p>`,
+    year: 2019
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231359/IMG_6053_qbglru.png'],
+    title: 'Under Valued',
+    handle: "/under-valued",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>Featured in Nightmares Vol 1 Zine. 2021.</p>`,
+    year: 2019
   },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1684805164/Untitled_Artwork_14_dvfnst.png'],
@@ -248,6 +284,87 @@ export const images = [
     year: 2019
   },
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231392/IMG_0219_qrtlfc.png'],
+    title: 'Bunny',
+    handle: "/bunny",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231392/Untitled_Artwork_21_kpbd8o.png'],
+    title: 'Broken',
+    handle: "/broken",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231367/Untitled_Artwork_22_w9cvmq.png'],
+    title: 'Gloom',
+    handle: "/gloom",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231367/Untitled_Artwork_24_bqb181.png'],
+    title: 'Mutant',
+    handle: "/mutant",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231366/Untitled_Artwork_23_mzru47.png'],
+    title: 'Joker',
+    handle: "/joker",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231362/IMG_0235_ugmgfi.png'],
+    title: 'X-ray',
+    handle: "/x-ray",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231359/IMG_0253_lwvykv.png'],
+    title: 'The Devil',
+    handle: "/the-devil",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231359/IMG_0284_xhbqt6.png'],
+    title: 'Skull Flowers',
+    handle: "/skull-flowers",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231356/IMG_0232_j8fpcq.png'],
+    title: 'Tourment (2019)',
+    handle: "/tourment-digital",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Inktober Drawing. 2019.</p>`,
+    year: 2019,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1684805126/Untitled_Artwork_19_hdwu05.png'],
     title: 'Self Portrait',
     handle: "/self-portrait",
@@ -255,6 +372,60 @@ export const images = [
     medium: 'Digital',
     description: `<p>2019.</p>`,
     year: 2019
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231376/IMG_0161_tamkz6.png'],
+    title: 'Haze',
+    handle: "/haze",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>2019.</p>`,
+    year: 2019
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231366/Untitled_Artwork_27_xojmnf.png'],
+    title: 'Dice Devil 1/2',
+    handle: "/dice-devil-1-2",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>2020.</p>`,
+    year: 2020
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231358/IMG_0371_2_zyit5y.png'],
+    title: 'Dice Devil 2/2',
+    handle: "/dice-devil-2-2",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>2020.</p>`,
+    year: 2020
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231365/IMG_0428_2_kiokgq.png'],
+    title: 'Fuck Covid',
+    handle: "/fuck-covid",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>2020.</p>`,
+    year: 2020
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231364/Untitled_Artwork_2_ng1mnc.png'],
+    title: 'Dunce',
+    handle: "/dunce",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>2021.</p>`,
+    year: 2021
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231363/Untitled_Artwork_16_m7fdb9.png'],
+    title: 'Sword',
+    handle: "/sword-digital",
+    categories: ['digital-illustrations'],
+    medium: 'Digital',
+    description: `<p>2021.</p>`,
+    year: 2021
   },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1684805123/Untitled_Artwork_4_gsz5jc.png'],
@@ -888,11 +1059,11 @@ export const images = [
   },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687220340/IMG_9206_x2ftnl.jpg'],
-    title: 'Dad',
-    handle: "/dad",
+    title: 'Father`s Day',
+    handle: "/fathers-day",
     categories: ['illustrations'],
     medium: 'Illustration',
-    description: `<p>2023.</p>`,
+    description: `<p>For my Dad. 2023.</p>`,
     year: 2023,
   },
   {
@@ -932,7 +1103,7 @@ export const images = [
     year: 2023,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687220412/IMG_1776_iqytos.jpg'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231391/Untitled_Artwork_15_udnbez.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1687220412/IMG_1776_iqytos.jpg'],
     title: 'Guts',
     handle: "/guts",
     categories: ['illustrations'],
@@ -991,8 +1162,8 @@ export const images = [
     handle: "/burnt-out",
     categories: ['illustrations'],
     medium: 'Illustration',
-    description: `<p>2017.</p>`,
-    year: 2017,
+    description: `<p>2016.</p>`,
+    year: 2016,
   },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687220380/bowie_i4csio.png'],
@@ -1536,6 +1707,15 @@ export const images = [
     year: 2018,
   },
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231880/6A83E4A7-94DF-4C8D-B47F-C98CFCC367D2_pswvch.jpg'],
+    title: 'Whiping Her Lips',
+    handle: "/whiping-her-lips",
+    categories: ['illustrations'],
+    medium: 'Illustration',
+    description: `<p>I consider this one of my definitive works. This piece holds a lot of weight for me as it was one of the first that contained a strong meaning. It catalysted me to draw every day in 2018 and now again in 2023 to improve my technical skills. 2017.</p>`,
+    year: 2017,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225085/Untitled_Artwork_15_pobr3h.png'],
     title: 'Flower Skull (GAN)',
     handle: "/flower-skull-gan-design",
@@ -1858,6 +2038,42 @@ export const images = [
     medium: 'Digital Design',
     description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
     year: 2021,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231335/1_s7ziwq.jpg'],
+    title: 'The Bleeding',
+    handle: "/the-bleeding",
+    categories: ['designs'],
+    medium: 'Digital Design',
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
+    year: 2021,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231335/1_s7ziwq.jpg'],
+    title: 'The Bleeding',
+    handle: "/the-bleeding",
+    categories: ['designs'],
+    medium: 'Digital Design',
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
+    year: 2021,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687303833/Untitled_Artwork_9_n5fkn9.png'],
+    title: 'Facing Demons',
+    handle: "/facing-demons",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Digitial Illustraition on a photo shot by Louis Capon. 2021.</p>`,
+    year: 2021,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687231394/ok_ok_20201021121614332_omlhr3.png'],
+    title: 'Blood on the Snow',
+    handle: "/blood-on-the-snow-still",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>Collaboration with <a href="https://trizton.myportfolio.com/work" rel=”noopener noreferrer” target="__blank">Trizton Delbaugh</a>. 2020.</p>`,
+    year: 2020,
   },
 ]
 export function getImageByHandle(handle) {

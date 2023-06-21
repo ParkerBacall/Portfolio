@@ -5,9 +5,11 @@ import { images } from '../data.js'
 export default 
  function Home() {
 
-  const homeImages = images.filter(image => {
+  let homeImages = images.filter(image => {
     return image.categories.includes('home')
   }) 
+
+  homeImages = homeImages.sort((a, b) => b.year - a.year);
   
   return (
     <>
