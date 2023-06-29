@@ -608,7 +608,7 @@ export const images = [
     year: 2018,
   },
   {
-    images: ['  https://res.cloudinary.com/dpdnba5be/image/upload/v1686879044/IMG_0977_hhhyew.jpg'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1686879044/IMG_0977_hhhyew.jpg'],
     title: 'Unholy',
     handle: "/unholy",
     categories: ['murals'],
@@ -914,7 +914,7 @@ export const images = [
     year: 2018,
   },
   {
-    images: [' https://res.cloudinary.com/dpdnba5be/image/upload/v1687050469/LargeWoodBlock_gaekcp.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1687050487/IMG_5549_yykflf.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1687050479/print1_whnltz.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687050469/LargeWoodBlock_gaekcp.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1687050487/IMG_5549_yykflf.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1687050479/print1_whnltz.png'],
     title: 'Relfection',
     handle: "/reflection",
     categories: ['prints'],
