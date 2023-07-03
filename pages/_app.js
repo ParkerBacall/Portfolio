@@ -26,14 +26,14 @@ export default function App({ Component, pageProps }) {
   return (
     <main className={`${myFont.variable} font-josefin font-light`}>
       <div className={`z-1 fixed inset-0 bg-gray-900 inset-0 transition-opacity duration-300
-               ${isMenuOpen ? 'bg-opacity-75 z-20' : 'bg-opacity-0 z-1'}`
+               ${isMenuOpen ? 'bg-opacity-75 z-20' : 'bg-opacity-0 z-[-1]'}`
       }
         onClick={handleModalClick}
       >
         <aside
           className=
-          {`transform top-[106px] opacity-1 list-none left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30
-                ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`
+          {`transform top-[106px] opacity-1 list-none left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-translate duration-300 z-30
+                ${isMenuOpen ? 'translate-x-0 block' : '-translate-x-full'}`
           }>
           <NavItem title="Digital Illustrations" link="/digital-illustrations" />
           <NavItem title="Paintings" link="/paintings" />
