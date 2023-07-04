@@ -41,8 +41,6 @@ export default function DynamicPage() {
 
     }
 
-
-
     const images = pageData?.images.map((image, index) => {
         return <div className='pb-4' key={index}>
             <Image src={image}
@@ -57,6 +55,18 @@ export default function DynamicPage() {
             />
         </div>
     })
+
+    if (!images?.length) {
+        return (
+            <div className='flex items-center flex-col'>
+                <h2 className='p-2 text-[24px]'>
+                    Woah Page Not Found
+                </h2>
+    
+                <Link className='text-[18px] underline' href="/">Return to home</Link>
+            </div>
+        )
+    }
 
     return (
         <div className="flex flex-col lg:flex-row w-[100%]">
