@@ -27,7 +27,7 @@ export const images = [
     title: 'Seppuku Mural',
     handle: "/seppuku-mural",
     categories: ['home', 'murals'],
-    medium: 'Acrylic Paint on Wall',
+    medium: 'Acrylic Paint on Walls',
     description: `<p>The second Mural I worked on. Seppuku stands inside the studio space, next to works of other talented artists at <a rel=”noopener noreferrer” target="__blank" href="https://www.denverartsociety.org/">Denver Art Society</a> in Denver, CO. 2020.</p>`,
     year: 2020
   },
