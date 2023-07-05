@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 import '../styles/globals.css'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+
 import NavItem from '../components/NavItem'
 
 import localFont from '@next/font/local'
@@ -52,6 +54,7 @@ export default function App({ Component, pageProps }) {
       <div className='pt-[140px] mx-auto w-[95%]'>
         <Component {...pageProps} />
       </div>
+      <Footer/>
     </main>
   )
 }

@@ -83,7 +83,6 @@ export default function About() {
                 <p className="p-2 text-[18px]">
                     If you want to follow my growth please follow me on instagram of subcribe to my newsletter. Thanks for taking the time to look at what I have done so far, it means the world to me.
                 </p>
-                {/* <iframe src="https://parkerbacall.substack.com/embed" width="480" height="320" style={{ border: '1px solid #EEE', background: 'white' }} frameborder="0" ></iframe> */}
             </div>
         </div >
     )

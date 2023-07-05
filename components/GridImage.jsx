@@ -25,6 +25,9 @@ export default function GridImage({ image, title, link }) {
                     <span>{title}</span>
                 </div>
                 <Image src={image}
+                    blurDataURL={image}
+                    placeholder="blur"
+                    loading="lazy"
                     width={500}
                     height={500}
                     alt={title}
