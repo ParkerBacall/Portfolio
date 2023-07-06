@@ -32,7 +32,8 @@ export default function Footer() {
                         />
                     </Link>
                 </div>
-                <iframe className='m-w-[100%]' src="https://parkerbacall.substack.com/embed" width="375" height="200" style={{ border: '1px solid #EEE', background: 'white' }} frameborder="0" ></iframe>
+                <iframe className='m-w-[100%] hidden md:block' src="https://parkerbacall.substack.com/embed" width="500" height="275" style={{ border: '1px solid #EEE', background: 'white' }} frameborder="0" ></iframe>
+                <iframe className='m-w-[100%] md:hidden' src="https://parkerbacall.substack.com/embed" width="350" height="275" style={{ border: '1px solid #EEE', background: 'white' }} frameborder="0" ></iframe>
             </nav >
         </>
     )
