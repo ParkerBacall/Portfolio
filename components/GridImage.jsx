@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 
-
 export default function GridImage({ image, title, link }) {
     const { asPath } = useRouter();
 
@@ -43,7 +42,7 @@ export default function GridImage({ image, title, link }) {
                     width={600}
                     height={600}
                     alt={title}
-                    blurDataURL={rgbDataURL(237, 181, 6)}
+                    blurDataURL={rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))}
                     style={{
                         objectFit: "cover",
                         width: "100%",
