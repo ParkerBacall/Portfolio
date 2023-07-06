@@ -1,21 +1,36 @@
-import React, { useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import Image from 'next/image'
 import emailjs from 'emailjs-com'
 
 export default function About() {
 
-    const form = useRef();
+    const [formReady, setFormReady] = useState(true)
+    const [formSubitted, setFormSubitted] = useState(false)
+    const [loading, setLoading] = useState(false)
+    const [error, setError] = useState(false)
+
+    const [email, setEmail] = useState('')
+    const [name, setName] = useState('')
+    const [subject, setSubject] = useState('')
+    const [message, setMessage] = useState('')
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setLoading(true) 
 
         emailjs.sendForm('service_f3ymqjm', 'template_grbefbv', e.target, 'ZWlgqZ8IRLR0o33w3')
             .then((result) => {
                 console.log(result.text);
+                setFormSubitted(true)
+                setLoading(false) 
+                e.target.reset()
+
             }, (error) => {
                 console.log(error.text);
+                setLoading(false) 
+                setError(true)
+                e.target.reset()
             });
-        e.target.reset()
     }
 
     return (
@@ -55,33 +70,42 @@ export default function About() {
                 </p>
 
                 <p className="p-2 text-[18px]">
-                    I am always looking to connect with other artists and find new oppurtunites. If you are interested in anything I do please send me an email in the form below!
+                    I am always looking to connect with other artists and find new opportunities. If you are interested in anything I do please send me an email in the form below!
                 </p>
 
-                <form onSubmit={sendEmail} className="flex w-full flex-col pt-5 mx-auto flex py-5">
-                    <div className='p-2 grid grid-cols-3'>
-                        <label className='pr-5' >Name: </label>
-                        <input className='border-solid border-2 border-black p-2 rounded-md ' type="text" placeholder="Name" name="name" />
+                <form onSubmit={sendEmail} onChange={(e) => console.log(e)} className="flex w-full flex-col pt-5 mx-auto flex py-5">
+                    <div className='p-2 flex w-full'>
+                        <label className='pr-5 w-[15%]' >Name: </label>
+                        <input required className='w-[85%] border-solid border-2 border-black p-2 rounded-md ' type="text" placeholder="Name" name="name" />
                     </div>
-                    <div className='p-2 grid grid-cols-3'>
-                        <label className='pr-5'>Email: </label>
-                        <input className='border-solid border-2 border-black p-2 rounded-md' type="email" placeholder="Email Address" name="email" />
+                    <div className='p-2 flex w-full'>
+                        <label className='pr-5 w-[15%]'>Email: </label>
+                        <input required className='w-[85%] border-solid border-2 border-black p-2 rounded-md' type="email" placeholder="Email Address" name="email" />
                     </div>
-                    <div className='p-2 grid grid-cols-4'>
-                        <label className='pr-5 row-span-1'>Subject: </label>
-                        <input className='border-solid border-2 row-span-3 border-black p-2 rounded-md' type="text" placeholder="Subject" name="subject" />
-                    </div>
-
-                    <div className='p-2 flex justify-start grid grid-cols-3'>
-                        <label className='pr-5'>Message: </label>
-                        <textarea className='border-solid border-2 border-black p-2 rounded-md' placeholder="Your message" name="message"></textarea>
+                    <div className='p-2 flex  w-full'>
+                        <label className='w-[15%] pr-5 row-span-1'>Subject: </label>
+                        <input className='w-[85%] order-solid border-2 row-span-3 border-black p-2 rounded-md' type="text" placeholder="Subject" name="subject" />
                     </div>
 
-                    <button className='w-[100px] hover:bg-gray-500 transition-bg duration-300 border-solid border-2 border-black p-2 rounded-md' type="submit">Sumbit</button>
+                    <div className='p-2 flex w-full'>
+                        <label className='w-[15%] pr-5'>Message: </label>
+                        <textarea required className='w-[85%] border-solid border-2 border-black p-2 rounded-md' placeholder="Your message" name="message"></textarea>
+                    </div>
+                    <div className='flex flex-col mt-[10px] items-center justify-center'>
+                        <button disabled={!formReady} className={`${!formReady && 'bg-gray-200'} sumbit-button w-[100px] hover:bg-gray-200 transition-bg duration-300 border-solid border-2 border-black p-2 rounded-md mb-4`} type="submit">
+                            {loading ? 'Sumbiting...' : 'Submit'}
+                        </button>
+                
+                        {formSubitted && <p className='text-green-500' >Email Sent!</p>}
+                        {error && <p className='text-red-500' >Error sending email</p>}
+
+                 </div>
+                    
                 </form>
+                
 
                 <p className="p-2 text-[18px]">
-                    If you want to follow my growth please follow me on instagram of subcribe to my newsletter. Thanks for taking the time to look at what I have done so far, it means the world to me.
+                    If you want to follow my growth please follow me on instagram and subcribe to my newsletter. Thanks for taking the time to look at what I have done so far, it means the world to me.
                 </p>
             </div>
         </div >
