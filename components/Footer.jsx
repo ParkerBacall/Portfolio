@@ -28,7 +28,7 @@ export default function Footer() {
                             alt="Sentimental Skull"
                             width={45}
                             height={45}
-                            src=" https://res.cloudinary.com/dpdnba5be/image/upload/v1688617116/Untitled_Artwork_mmbuir.jpg"
+                            src="https://res.cloudinary.com/dpdnba5be/image/upload/v1688617116/Untitled_Artwork_mmbuir.jpg"
                         />
                     </Link>
                 </div>
