@@ -1743,7 +1743,7 @@ export const images = [
     year: 2022,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225081/Untitled_Artwork_14_copy_uwotdr.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683695/Untitled_Artwork_14_copy_poo7v1.jpg'],
     title: 'Heretic',
     handle: "/heretic-design",
     categories: ['designs'],
@@ -1788,7 +1788,7 @@ export const images = [
     year: 2022,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225078/Untitled_Artwork_12_copy_zib92g.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683695/Untitled_Artwork_12_copy_j1goa1.jpg'],
     title: 'Untitled',
     handle: "/untitled",
     categories: ['designs'],
@@ -1833,7 +1833,7 @@ export const images = [
     year: 2021,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225090/Untitled_Artwork_17_copy_dlmoqk.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688685188/Untitled_Artwork_17_copy_dlmoqk_u4gfkx.jpg'],
     title: 'Two Headed Boy',
     handle: "/two-headed-boy-design",
     categories: ['designs'],
@@ -1851,7 +1851,7 @@ export const images = [
     year: 2018,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225077/shoe_dthhja.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683696/shoe_tuave2.jpg'],
     title: 'Tradition',
     handle: "/tradition",
     categories: ['designs'],
@@ -1887,7 +1887,7 @@ export const images = [
     year: 2018,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225077/tat_l1jsqk.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683693/tat_cwt2wz.jpg'],
     title: 'Scribble',
     handle: "/scribble",
     categories: ['designs'],
@@ -1923,7 +1923,7 @@ export const images = [
     year: 2021,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225075/Shape_80_vzvbgk.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683692/Shape_80_a2ugml.jpg'],
     title: 'Quitter',
     handle: "/quitter",
     categories: ['designs'],
@@ -1932,7 +1932,7 @@ export const images = [
     year: 2019,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225075/Shape_110_ozt0qp.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683692/Shape_110_wqgr70.jpg'],
     title: 'Raven',
     handle: "/raven",
     categories: ['designs'],
@@ -1941,7 +1941,7 @@ export const images = [
     year: 2019,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225075/Shape_87_da9opy.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683692/Shape_87_d8stcl.jpg'],
     title: 'Dead',
     handle: "/dead",
     categories: ['designs'],
@@ -1959,7 +1959,7 @@ export const images = [
     year: 2017,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225075/Shape_79_oxjd0t.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683692/Shape_79_r5cmki.jpg'],
     title: 'Flower Club',
     handle: "/flower-club",
     categories: ['designs', 'home'],
@@ -1977,7 +1977,7 @@ export const images = [
     year: 2020,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225075/Shape_76_qncnut.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683692/Shape_76_qwnrhu.jpg'],
     title: 'Skull Vase',
     handle: "/skull-vase",
     categories: ['designs'],
@@ -1986,7 +1986,7 @@ export const images = [
     year: 2019,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225075/Shape_78_i2bvyg.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688683692/Shape_78_r3ddpy.jpg'],
     title: 'Half Dead',
     handle: "/half-dead",
     categories: ['designs', 'home'],
@@ -1995,7 +1995,7 @@ export const images = [
     year: 2019,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1687225074/flowerl_qzk5px.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1688685208/flowerl_j3h7ko.jpg'],
     title: 'Leviathan',
     handle: "/leviathan",
     categories: ['designs'],
