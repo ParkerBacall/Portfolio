@@ -100,7 +100,7 @@ export default function DynamicPage() {
                 <div className="flex">
                 {category &&
                     <h4 className="p-2 font-semibold text-[20px] text-neutral-500 capitalize relative">
-                        <Link href={category === 'home' ? '/' : `${category}`}>{category.replace('-', ' ')} </Link>
+                        <Link href={category === 'home' ? '/' : `/${category}`}>{category.replace('-', ' ')} </Link>
                     </h4>
                 }
                 {secondaryCategory && (
