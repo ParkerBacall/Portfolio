@@ -8,7 +8,7 @@ export default function ImageSlideshow({ images, page }) {
             key={index}
             image={image.images[0]}
             title={image.title}
-            link={page === 'home' ? '/home' + image.handle : image.handle} />
+            link={page === 'home' ? 'home' + image.handle : image.handle} />
     })
 
     return (

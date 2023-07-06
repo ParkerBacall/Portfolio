@@ -74,18 +74,26 @@ export default function DynamicPage() {
                 {images}
             </div>
             <div className="w-full lg:w-[50%]  p-4">
+            <div className="p-2 md:hidden">
+                    {imagesArray[currentIndex - 1] &&
+                        <button className="relative pr-4 font-semibold underline"> <Link href={prevHandle}> Prev </Link> </button>
+                    }
+                    {imagesArray[currentIndex + 1] &&
+                        <button className="relative font-semibold underline"> <Link href={nextHandle}> Next </Link> </button>
+                    }
+                </div>
 
                 <div className="flex">
                 {category &&
                     <h4 className="p-2 font-semibold text-[20px] text-neutral-500 capitalize relative">
-                        <Link href={category === 'home' ? '/' : `/${category}`}>{category.replace('-', ' ')} </Link>
+                        <Link href={category === 'home' ? '/' : `${category}`}>{category.replace('-', ' ')} </Link>
                     </h4>
                 }
                 {secondaryCategory && (
                     <>
                     <span className="p-2"> | </span>
                     <h4 className="p-2 font-semibold text-[20px] text-neutral-500 capitalize relative">
-                        <Link href={`/${secondaryCategory}`}>{secondaryCategory.replace('-', ' ')} </Link>
+                        <Link href={`${secondaryCategory}`}>{secondaryCategory.replace('-', ' ')} </Link>
                     </h4>
                     </>
                 )}
@@ -107,7 +115,7 @@ export default function DynamicPage() {
                     </p>
                 }
 
-                <div className="p-2">
+                <div className="p-2 md:block hidden">
                     {imagesArray[currentIndex - 1] &&
                         <button className="relative pr-4 font-semibold underline"> <Link href={prevHandle}> Prev </Link> </button>
                     }

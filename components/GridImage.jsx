@@ -16,20 +16,16 @@ export default function GridImage({ image, title, link }) {
     const handleMouseOut = () => {
         setIsHghlighted(false)
     }
-
     return (
-            <div className="h-[400px] md:h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
+            <div className="'h-[600px] 2xl:h-[400px] md:h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
             >
-                <Link href={`${link ?  asPath+'/'+link : '/'}`}>
+                <Link href={`${link ?  asPath + link : '/'}`}>
                 <div className={`font-medium z-10 absolute h-full w-full flex items-center justify-center ${isHighlighted ?'bg-black/40 text-white': 'bg-black/0 text-transparent'}`}>
                     <span>{title}</span>
                 </div>
                 <Image src={image}
-                    blurDataURL={image}
-                    placeholder="blur"
-                    loading="lazy"
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={600}
                     alt={title}
                     style={{objectFit: "cover",
                     width: "100%",
