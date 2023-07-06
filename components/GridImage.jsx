@@ -29,6 +29,7 @@ export default function GridImage({ image, title, link }) {
     `data:image/gif;base64,R0lGODlhAQABAPAA${
       triplet(0, r, g) + triplet(b, 255, 255)
     }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`
+    
     return (
         <div className="'h-[600px] 2xl:h-[400px] md:h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
         >

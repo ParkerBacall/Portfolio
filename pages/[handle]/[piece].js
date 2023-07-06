@@ -29,7 +29,7 @@ export default function DynamicPage() {
     let prevHandle, nextHandle, category = ''
     let secondaryCategory = null
 
-    const keyStr =
+      const keyStr =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
   
   const triplet = (e1, e2, e3) =>
