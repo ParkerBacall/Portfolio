@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
@@ -17,22 +17,26 @@ export default function GridImage({ image, title, link }) {
         setIsHghlighted(false)
     }
     return (
-            <div className="'h-[600px] 2xl:h-[400px] md:h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
-            >
-                <Link href={`${link ?  asPath + link : '/'}`}>
-                <div className={`font-medium z-10 absolute h-full w-full flex items-center justify-center ${isHighlighted ?'bg-black/40 text-white': 'bg-black/0 text-transparent'}`}>
+        <div className="'h-[600px] 2xl:h-[400px] md:h-[300px] relative" onMouseEnter={handleHeightlighted} onMouseLeave={handleMouseOut}
+        >
+            <Link href={`${link ? asPath + link : '/'}`}>
+                <div className={`font-medium z-10 absolute h-full w-full flex items-center justify-center ${isHighlighted ? 'bg-black/40 text-white' : 'bg-black/0 text-transparent'}`}>
                     <span>{title}</span>
                 </div>
                 <Image src={image}
+                    loading='lazy'
+                    placeholder="blur"
                     width={600}
                     height={600}
                     alt={title}
-                    style={{objectFit: "cover",
-                    width: "100%",
-                    height: "100%",
-                }}
+                    blurDataURL='https://res.cloudinary.com/dpdnba5be/image/upload/v1688605516/n_w2utoi.jpg'
+                    style={{
+                        objectFit: "cover",
+                        width: "100%",
+                        height: "100%",
+                    }}
                 />
-                </Link>
-            </div>
+            </Link>
+        </div>
     )
 }
