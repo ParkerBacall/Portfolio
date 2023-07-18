@@ -631,7 +631,7 @@ export const images = [
     handle: "/body-terror",
     categories: ['animations', 'home'],
     medium: 'digital',
-    description: `<p>Inspired by an AJJ skng. 2020.</p>`,
+    description: `<p>Inspired by an AJJ song of the same name. 2020.</p>`,
     year: 2020,
   },
   {
