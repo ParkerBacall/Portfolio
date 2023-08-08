@@ -5,6 +5,33 @@
 
 export const images = [
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1691449398/trouble_ax9dg7.jpg'],
+    title: 'Troubles ',
+    handle: "/troubles",
+    categories: ['paintings', 'home'],
+    medium: 'Acrylic and Screen Print on Canvas',
+    description: `<p>Featured in <a rel=”noopener noreferrer” target="__blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Pop art show in August 2023.</p>`,
+    year: 2023,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1691449082/Untitled_Artwork_kvenoo.png'],
+    title: 'Flea Poster August 2023 ',
+    handle: "/flea-poster-august",
+    categories: ['designs', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Poster for Los Feliz Flea Market August 2023.</p>`,
+    year: 2023,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1691449338/IMG_0169_vkl28v.jpg'],
+    title: 'Mother and Father ',
+    handle: "/mother-father",
+    categories: ['illustrations', 'home'],
+    medium: 'Illustration',
+    description: `<p>Drawing made for my Mom for her birthday! 2023.</p>`,
+    year: 2023,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1684627558/I_m_so_glad_it_will_end_iwgiln.jpg'],
     title: 'This will end',
     handle: "/this-will-end",
