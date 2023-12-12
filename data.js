@@ -4,6 +4,16 @@
 
 
 export const images = [
+  
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1702349029/UnderVolted_Demo_rinl9n.jpg'],
+    title: 'Insert Angel',
+    handle: "/insert-angel",
+    categories: ['digital-illustrations', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Album artwork commisioned for <a rel=”noopener noreferrer” target="_blank" href="https://undervolted.bandcamp.com/album/insert-disc-1">Undervolted's</a> first release, <a rel=”noopener noreferrer” target="_blank" href="https://undervolted.bandcamp.com/album/insert-disc-1">Insert Disc One</a>. November 2023.</p>`,
+    year: 2023,
+  },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1695344466/3B79AE5F-E645-4517-ABD4-E9942305CFF7_idlhji.jpg'],
     title: 'Sold my Soul',
@@ -37,7 +47,7 @@ export const images = [
     handle: "/gone-far-away",
     categories: ['digital-illustrations', 'home'],
     medium: 'Digital Illustration',
-    description: `<p>Featured in <a rel=”noopener noreferrer” target="__blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Monochrome art show in September 2023.</p>`,
+    description: `<p>Featured in <a rel=”noopener noreferrer” target="_blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Monochrome art show in September 2023.</p>`,
     year: 2023,
   },
   {
@@ -46,7 +56,7 @@ export const images = [
     handle: "/battle-scars",
     categories: ['digital-illustrations', 'home'],
     medium: 'Digital Illustration',
-    description: `<p>Featured in <a rel=”noopener noreferrer” target="__blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Monochrome art show in September 2023.</p>`,
+    description: `<p>Featured in <a rel=”noopener noreferrer” target="_blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Monochrome art show in September 2023.</p>`,
     year: 2023,
   },
   {
@@ -55,7 +65,7 @@ export const images = [
     handle: "/troubles",
     categories: ['paintings', 'home'],
     medium: 'Acrylic and Screen Print on Canvas',
-    description: `<p>Featured in <a rel=”noopener noreferrer” target="__blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Pop art show in August 2023.</p>`,
+    description: `<p>Featured in <a rel=”noopener noreferrer” target="_blank"  href="https://www.xzbtlife.com/" >XZBT Galleries</a> Pop art show in August 2023.</p>`,
     year: 2023,
   },
   {
@@ -91,7 +101,7 @@ export const images = [
     handle: "/fallen-mural",
     categories: ['home', 'murals'],
     medium: 'Spray Paint on Alley Wall',
-    description: `<p>First large scale outdoor mural I created. Part of a large scale installation at <a rel=”noopener noreferrer” target="__blank" href="https://www.denverartsociety.org/">Denver Art Society </a> in Denver, CO to raise aqareness for breast cancer. 2019.</p>`,
+    description: `<p>First large scale outdoor mural I created. Part of a large scale installation at <a rel=”noopener noreferrer” target="_blank" href="https://www.denverartsociety.org/">Denver Art Society </a> in Denver, CO to raise aqareness for breast cancer. 2019.</p>`,
     year: 2019
   },
   {
@@ -100,7 +110,7 @@ export const images = [
     handle: "/seppuku-mural",
     categories: ['home', 'murals'],
     medium: 'Acrylic Paint on Wall',
-    description: `<p>The second Mural I worked on. Seppuku stands inside the studio space, next to works of other talented artists at <a rel=”noopener noreferrer” target="__blank" href="https://www.denverartsociety.org/">Denver Art Society</a> in Denver, CO. 2020.</p>`,
+    description: `<p>The second Mural I worked on. Seppuku stands inside the studio space, next to works of other talented artists at <a rel=”noopener noreferrer” target="_blank" href="https://www.denverartsociety.org/">Denver Art Society</a> in Denver, CO. 2020.</p>`,
     year: 2020
   },
   {
@@ -109,7 +119,7 @@ export const images = [
     handle: "/100-skulls",
     categories: ['home', 'digital-illustrations'],
     medium: 'Digital',
-    description: `<p>This image was producted in multiple colorways as 16"x16" prints. Color work was done with long time friend and collaborar with Eduardo Miller, founder of <a href="https://highstoneshop.com/" rel=”noopener noreferrer” target="__blank">Highstone</a>. 2022.</p>`,
+    description: `<p>This image was producted in multiple colorways as 16"x16" prints. Color work was done with long time friend and collaborar with Eduardo Miller, founder of <a href="https://highstoneshop.com/" rel=”noopener noreferrer” target="_blank">Highstone</a>. 2022.</p>`,
     year: 2023
   },
   {
@@ -316,7 +326,7 @@ export const images = [
     handle: "/premiere-conntent",
     categories: ['digital-illustrations'],
     medium: 'Digital',
-    description: `<p>Collab with artist <a rel=”noopener noreferrer” target="__blank" href="https://www.joecapon.com/">Joe Capon</a>. 2020.</p>`,
+    description: `<p>Collab with artist <a rel=”noopener noreferrer” target="_blank" href="https://www.joecapon.com/">Joe Capon</a>. 2020.</p>`,
     year: 2020
   },
   {
@@ -559,7 +569,7 @@ export const images = [
     handle: "/tour-poster",
     categories: ['designs'],
     medium: 'Digital',
-    description: `<p>Tour Poster for <a rel=”noopener noreferrer” target="__blank" href="https://laslossound.bandcamp.com/">Las Los</a>. 2022.</p>`,
+    description: `<p>Tour Poster for <a rel=”noopener noreferrer” target="_blank" href="https://laslossound.bandcamp.com/">Las Los</a>. 2022.</p>`,
     year: 2022
   },
   {
@@ -730,7 +740,7 @@ export const images = [
     handle: "/Blood on the Snow",
     categories: ['animations'],
     medium: 'digital',
-    description: `<p>Collaboration with <a href="https://trizton.myportfolio.com/work" rel=”noopener noreferrer” target="__blank">Trizton Delbaugh</a>. 2020.</p>`,
+    description: `<p>Collaboration with <a href="https://trizton.myportfolio.com/work" rel=”noopener noreferrer” target="_blank">Trizton Delbaugh</a>. 2020.</p>`,
     year: 2020,
   },
   {
@@ -1424,7 +1434,7 @@ export const images = [
     handle: "/just-for-you",
     categories: ['illustrations'],
     medium: 'Illustration',
-    description: `<p>Inspired by <a href="https://vodkabreadbowl.bandcamp.com/music"rel=”noopener noreferrer” target="__blank" >Vodka Breadbowl</a>. 2023.</p>`,
+    description: `<p>Inspired by <a href="https://vodkabreadbowl.bandcamp.com/music"rel=”noopener noreferrer” target="_blank" >Vodka Breadbowl</a>. 2023.</p>`,
     year: 2023,
   },
   {
@@ -1811,7 +1821,7 @@ export const images = [
     handle: "/flower-skull-gan-design",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. Made from altered output from Generative adversarial network. 2022.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. Made from altered output from Generative adversarial network. 2022.</p>`,
     year: 2022,
   },
   {
@@ -1820,7 +1830,7 @@ export const images = [
     handle: "/heretic-design",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2022.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2022.</p>`,
     year: 2022,
   },
   {
@@ -1829,7 +1839,7 @@ export const images = [
     handle: "/las-los",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for the band <a href="https://laslossound.bandcamp.com/" rel=”noopener noreferrer” target="__blank" >Las Los</a>. 2022.</p>`,
+    description: `<p>Design for the band <a href="https://laslossound.bandcamp.com/" rel=”noopener noreferrer” target="_blank" >Las Los</a>. 2022.</p>`,
     year: 2022,
   },
   {
@@ -1838,7 +1848,7 @@ export const images = [
     handle: "/yellnats-logo",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Logo for the Denver based band <a href="https://theyellnats.bandcamp.com/" rel=”noopener noreferrer” target="__blank" >The Yellnats</a>. 2019.</p>`,
+    description: `<p>Logo for the Denver based band <a href="https://theyellnats.bandcamp.com/" rel=”noopener noreferrer” target="_blank" >The Yellnats</a>. 2019.</p>`,
     year: 2019,
   },
   {
@@ -1847,7 +1857,7 @@ export const images = [
     handle: "/las-los-logo",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Logo for the band <a href="https://laslossound.bandcamp.com/" rel=”noopener noreferrer” target="__blank" >Las Los</a>. 2021.</p>`,
+    description: `<p>Logo for the band <a href="https://laslossound.bandcamp.com/" rel=”noopener noreferrer” target="_blank" >Las Los</a>. 2021.</p>`,
     year: 2021,
   },
   {
@@ -1856,7 +1866,7 @@ export const images = [
     handle: "/masked-demon",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2022.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2022.</p>`,
     year: 2022,
   },
   {
@@ -1865,7 +1875,7 @@ export const images = [
     handle: "/untitled",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2023.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2023.</p>`,
     year: 2023,
   },
   {
@@ -1874,7 +1884,7 @@ export const images = [
     handle: "/morbid",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2023.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2023.</p>`,
     year: 2023,
   },
   {
@@ -1901,7 +1911,7 @@ export const images = [
     handle: "/sentimental-skull-design",
     categories: ['designs', 'home'],
     medium: 'Digital Design',
-    description: `<p>Seminal design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
+    description: `<p>Seminal design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2021.</p>`,
     year: 2021,
   },
   {
@@ -1910,7 +1920,7 @@ export const images = [
     handle: "/two-headed-boy-design",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Seminal design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
+    description: `<p>Seminal design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2021.</p>`,
     year: 2021,
   },
   {
@@ -2090,7 +2100,7 @@ export const images = [
     handle: "/unknown-ghost",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2022.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2022.</p>`,
     year: 2022,
   },
   {
@@ -2099,7 +2109,7 @@ export const images = [
     handle: "/floating-ghost",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2022.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2022.</p>`,
     year: 2022,
   },
   {
@@ -2108,7 +2118,7 @@ export const images = [
     handle: "/crying",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2022.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2022.</p>`,
     year: 2022,
   },
   {
@@ -2117,7 +2127,7 @@ export const images = [
     handle: "/the-stabbing",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2021.</p>`,
     year: 2021,
   },
   {
@@ -2126,7 +2136,7 @@ export const images = [
     handle: "/the-bleeding",
     categories: ['designs'],
     medium: 'Digital Design',
-    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="__blank" >Sentimental Skull</a>. 2021.</p>`,
+    description: `<p>Design for <a href="https://www.sentimentalskull.com/" rel=”noopener noreferrer” target="_blank" >Sentimental Skull</a>. 2021.</p>`,
     year: 2021,
   },
   {
@@ -2144,7 +2154,7 @@ export const images = [
     handle: "/blood-on-the-snow-still",
     categories: ['digital-illustrations'],
     medium: 'Digital Illustration',
-    description: `<p>Collaboration with <a href="https://trizton.myportfolio.com/work" rel=”noopener noreferrer” target="__blank">Trizton Delbaugh</a>. 2020.</p>`,
+    description: `<p>Collaboration with <a href="https://trizton.myportfolio.com/work" rel=”noopener noreferrer” target="_blank">Trizton Delbaugh</a>. 2020.</p>`,
     year: 2020,
   },
   {
@@ -2153,7 +2163,7 @@ export const images = [
     handle: "/eclipse",
     categories: ['illustrations'],
     medium: 'Illustration',
-    description: `<p>Collaboration with <a href="https://www.instagram.com/thomjberger/" rel=”noopener noreferrer” target="__blank">Thom J Berger</a>. 2019.</p>`,
+    description: `<p>Collaboration with <a href="https://www.instagram.com/thomjberger/" rel=”noopener noreferrer” target="_blank">Thom J Berger</a>. 2019.</p>`,
     year: 2019,
   },
 ]
