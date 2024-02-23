@@ -4,7 +4,24 @@
 
 
 export const images = [
-  
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478564/Venom_a4xewj.jpg'],
+    title: 'thank You for the Venom',
+    handle: "/insert-angel",
+    categories: ['illustrations', 'home'],
+    medium: 'Illustration',
+    description: `<p>February 2024.</p>`,
+    year: 2024,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478566/Parker_Bacall_Corpsey_Frame_1_g6befm.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1708478566/Parker_Bacall_Corpsey_Frame_2_tlamtz.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1708478568/Parker_Bacall_Corpsey_Frame_3_idgqtq.jpg'],
+    title: 'Corspey Gets Extenstiental',
+    handle: "/corpsey",
+    categories: ['digital-illustrations', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Comic panels that I did for the <a href="https://corpsey.trubble.club/" rel=”noopener noreferrer” target="_blank" Infinite Corpse</a>, a chain comic with 556 artists! November 2023.</p>`,
+    year: 2023,
+  },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1702349029/UnderVolted_Demo_rinl9n.jpg'],
     title: 'Insert Angel',
