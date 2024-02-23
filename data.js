@@ -6,16 +6,25 @@
 export const images = [
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478564/Venom_a4xewj.jpg'],
-    title: 'thank You for the Venom',
-    handle: "/insert-angel",
+    title: 'Thank You for the Venom',
+    handle: "/VENOM",
     categories: ['illustrations', 'home'],
     medium: 'Illustration',
     description: `<p>February 2024.</p>`,
     year: 2024,
   },
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708649503/Untitled_Artwork_2_nw6auq.png'],
+    title: 'No Worries',
+    handle: "/no-worries",
+    categories: ['digital-illustrations'],
+    medium: 'Digital Illustration',
+    description: `<p>December 2023.</p>`,
+    year: 2023,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478566/Parker_Bacall_Corpsey_Frame_1_g6befm.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1708478566/Parker_Bacall_Corpsey_Frame_2_tlamtz.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1708478568/Parker_Bacall_Corpsey_Frame_3_idgqtq.jpg'],
-    title: 'Corspey Gets Extenstiental',
+    title: 'Corspey Gets Existential',
     handle: "/corpsey",
     categories: ['digital-illustrations', 'home'],
     medium: 'Digital Illustration',
