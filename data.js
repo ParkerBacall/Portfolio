@@ -5,9 +5,9 @@
 
 export const images = [
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478564/Venom_a4xewj.jpg'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478564/Venom_a4xewj.jpg' ],
     title: 'Thank You for the Venom',
-    handle: "/VENOM",
+    handle: "/venom",
     categories: ['illustrations', 'home'],
     medium: 'Illustration',
     description: `<p>February 2024.</p>`,
