@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ImageGrid from '../../components/ImageGrid'
 import { getImagesByHandle } from '../../data.js'
 import { useRouter } from 'next/router'
@@ -7,9 +7,12 @@ import Link from 'next/link'
 export default function CategoryPage() {
     const { query } = useRouter();
 
-    let images = [];
-   images = getImagesByHandle(query.handle);
+   let images = getImagesByHandle(query.handle);
    images = images.sort((a, b) => b.year - a.year);
+
+   useEffect(()=> {
+
+   },[images])
 
    if (!images?.length) {
     return (
