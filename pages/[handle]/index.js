@@ -7,7 +7,8 @@ import Link from 'next/link'
 export default function CategoryPage() {
     const { query } = useRouter();
 
-   let images = getImagesByHandle(query.handle);
+    let images = [];
+   images = getImagesByHandle(query.handle);
    images = images.sort((a, b) => b.year - a.year);
 
    if (!images?.length) {
