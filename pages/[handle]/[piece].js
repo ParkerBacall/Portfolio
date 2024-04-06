@@ -15,7 +15,7 @@ export default function DynamicPage() {
 
     useEffect(() => {
         setImagesArray(getImagesByHandle(query.handle), [...imagesArray])
-    }, [query, imagesArray])
+    }, [query])
 
     useEffect(() => {
         imagesArray.forEach((image, index) => {
@@ -59,7 +59,6 @@ export default function DynamicPage() {
                 width={500}
                 height={500}
                 alt={pageData?.title}
-                key={pageData?.title}
                 blurDataURL={rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))}
                 placeholder='blur'
                 style={{

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import ImageGrid from '../../components/ImageGrid'
 import { getImagesByHandle } from '../../data.js'
 import { useRouter } from 'next/router'
