@@ -8,6 +8,7 @@ export default function CustomImage({ image, title }) {
                     width={700}
                     height={1000}
                     alt={title}
+                    key={title}
                 />
             </div>
     )

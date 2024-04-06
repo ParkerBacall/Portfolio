@@ -43,6 +43,7 @@ export default function GridImage({ image, title, link }) {
                     width={600}
                     height={600}
                     alt={title}
+                    key={title}
                     blurDataURL={rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))}
                     style={{
                         objectFit: "cover",
