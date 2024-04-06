@@ -15,7 +15,7 @@ export default function DynamicPage() {
 
     useEffect(() => {
         setImagesArray(getImagesByHandle(query.handle), [...imagesArray])
-    }, [query])
+    }, [query, imagesArray])
 
     useEffect(() => {
         imagesArray.forEach((image, index) => {

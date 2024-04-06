@@ -6,9 +6,9 @@ import Footer from '../components/Footer'
 
 import NavItem from '../components/NavItem'
 
-import localFont from 'next/font'
+import local from 'next/font/local'
 
-const myFont = localFont({
+const myFont = local({
   src: '../fonts/JosefinSans.ttf',
   variable: '--font-josefin'
 })

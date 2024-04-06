@@ -49,7 +49,7 @@ export default function ImageSlideshow({ }) {
         return () => {
           clearInterval(timer.current)
         }
-      }, [pause, slider])
+      }, [pause, slider, animation])
 
     return (
         <div ref={sliderRef} className="keen-slider">
