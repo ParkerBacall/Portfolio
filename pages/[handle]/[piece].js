@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link'
 
 export default function DynamicPage() {
-    const { query, asPath } = useRouter();
+    const { query } = useRouter();
 
     const pageData = getImageByHandle(query.piece)
 
@@ -91,10 +91,10 @@ export default function DynamicPage() {
             <div className="w-full lg:w-[50%]  p-4">
             <div className="p-2 md:hidden">
                     {imagesArray[currentIndex - 1] &&
-                        <button className="relative pr-4 font-semibold underline"> <Link href={asPath + prevHandle}> Prev </Link> </button>
+                        <button className="relative pr-4 font-semibold underline"> <Link href={prevHandle}> Prev </Link> </button>
                     }
                     {imagesArray[currentIndex + 1] &&
-                        <button className="relative font-semibold underline"> <Link href={asPath + nextHandle}> Next </Link> </button>
+                        <button className="relative font-semibold underline"> <Link href={nextHandle}> Next </Link> </button>
                     }
                 </div>
 
@@ -132,10 +132,10 @@ export default function DynamicPage() {
 
                 <div className="p-2 md:block hidden">
                     {imagesArray[currentIndex - 1] &&
-                        <button className="relative pr-4 font-semibold underline"> <Link href={asPath + prevHandle}> Prev </Link> </button>
+                        <button className="relative pr-4 font-semibold underline"> <Link href={prevHandle}> Prev </Link> </button>
                     }
                     {imagesArray[currentIndex + 1] &&
-                        <button className="relative font-semibold underline"> <Link href={asPath + nextHandle}> Next </Link> </button>
+                        <button className="relative font-semibold underline"> <Link href={nextHandle}> Next </Link> </button>
                     }
                 </div>
             </div>
