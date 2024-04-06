@@ -10,9 +10,6 @@ export default function CategoryPage() {
    let images = getImagesByHandle(query.handle);
    images = images.sort((a, b) => b.year - a.year);
 
-   useEffect(()=> {
-
-   },[images])
 
    if (!images?.length) {
     return (
