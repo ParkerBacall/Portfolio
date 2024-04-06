@@ -14,7 +14,7 @@ export default function DynamicPage() {
     const [imagesArray, setImagesArray] = useState([])
 
     useEffect(() => {
-        setImagesArray(getImagesByHandle(query.handle))
+        setImagesArray(getImagesByHandle(query.handle), [...imagesArray])
     }, [query])
 
     useEffect(() => {
@@ -131,10 +131,10 @@ export default function DynamicPage() {
 
                 <div className="p-2 md:block hidden">
                     {imagesArray[currentIndex - 1] &&
-                        <button className="relative pr-4 font-semibold underline"> <Link href={prevHandle}> Prev </Link> </button>
+                        <button onClick={() => setImagesArray([])} className="relative pr-4 font-semibold underline"> <Link href={prevHandle}> Prev </Link> </button>
                     }
                     {imagesArray[currentIndex + 1] &&
-                        <button className="relative font-semibold underline"> <Link href={nextHandle}> Next </Link> </button>
+                        <button onClick={() => setImagesArray([])} className="relative font-semibold underline"> <Link href={nextHandle}> Next </Link> </button>
                     }
                 </div>
             </div>

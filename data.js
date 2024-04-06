@@ -28,7 +28,7 @@ export const images = [
     handle: "/corpsey",
     categories: ['digital-illustrations', 'home'],
     medium: 'Digital Illustration',
-    description: `<p>Comic panels that I did for the <a href="https://corpsey.trubble.club/" rel=”noopener noreferrer” target="_blank" Infinite Corpse</a>, a chain comic with 556 artists! November 2023.</p>`,
+    description: `<p>Comic panels that I did for the <a href="https://corpsey.trubble.club/" rel=”noopener noreferrer” target="_blank"> Infinite Corpse</a>, a chain comic with 556 artists! November 2023.</p>`,
     year: 2023,
   },
   {
