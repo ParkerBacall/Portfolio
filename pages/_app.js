@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
   }
   return (
     <main className={`${myFont.variable} font-josefin font-light`}>
-      <div className={`z-1 fixed inset-0 bg-gray-900 inset-0 transition-opacity duration-300
+      <div className={`z-1 fixed inset-0 bg-gray-900 transition-bg-opacity duration-300
                ${isMenuOpen ? 'bg-opacity-75 z-20' : 'bg-opacity-0 z-[-1]'}`
       }
         onClick={handleModalClick}
