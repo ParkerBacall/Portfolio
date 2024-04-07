@@ -29,6 +29,7 @@ export default function Header({ handleMenuToggle, isMenuOpen }) {
                     <NavItem title="Prints" link="/prints" />
                     <NavItem title="Designs " link="/designs" />
                     <NavItem title="Murals" link="/murals" />
+                    <NavItem title="Poems" link="/poems" />
                     <NavItem title="Interactive" link="https://butterygood.itch.io/tentacle-triumph" />
                     <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
                     <NavItem title="About" link="/about" />
