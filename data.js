@@ -23,15 +23,6 @@ export const images = [
     year: 2024,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189720/Untitled_e0ttwx.jpg'],
-    title: 'Dad stuff',
-    handle: "/dad-stuff",
-    categories: ['illustrations'],
-    medium: 'Illustrations',
-    description: `<p>Made this for my Dad for his birthday. March 2024.</p>`,
-    year: 2024,
-  },
-  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189720/Untitled_Artwork_3_avdyz5.png' ],
     title: 'Pixel Skull',
     handle: "/pixel-skull",

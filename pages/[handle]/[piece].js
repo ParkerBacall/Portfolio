@@ -48,9 +48,9 @@ export default function DynamicPage() {
         nextHandle = '/' + query.handle + imagesArray.sort((a, b) => b.year - a.year)[currentIndex + 1]?.handle
         category = query.handle
         if (category === 'home') {
+
             secondaryCategory = pageData.categories.filter(category => category !== 'home')[0]
         }
-
     }
 
     const images = pageData?.images.map((image, index) => {
@@ -107,7 +107,7 @@ export default function DynamicPage() {
                     <>
                     <span className="p-2"> | </span>
                     <h4 className="p-2 font-semibold text-[20px] text-neutral-500 capitalize relative">
-                        <Link href={`${secondaryCategory}`}>{secondaryCategory.replace('-', ' ')} </Link>
+                        <Link href={`/${secondaryCategory}`}>{secondaryCategory.replace('-', ' ')} </Link>
                     </h4>
                     </>
                 )}
