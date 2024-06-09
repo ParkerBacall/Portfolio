@@ -5,6 +5,33 @@
 
 export const images = [
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1717972507/itch-title2_ffes2x.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974062/Screenshot_2024-05-27_at_11.50.57_AM_dmxcs5.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974063/Screenshot_2024-05-27_at_11.51.08_AM_sprc2z.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974297/Screenshot_2024-05-27_at_11.50.43_AM_xrfuwa.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974063/Screenshot_2024-05-27_at_11.51.24_AM_nirx61.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974058/Screenshot_2024-05-28_at_5.21.24_PM_tlqla7.png'],
+    title: 'Demon Escape',
+    handle: "/demon-escape",
+    categories: ['games', 'home'],
+    description: `<p>Navigate this demon out of a collapsing building before the time runs out! Watch out for falling debris and unstable platforms! Try for a High Score on the Leaderboards!</p><br/> <p>After I finished <a href="https://www.parkerbacallart.com/games/spelunker-skull rel=”noopener noreferrer” target="_blank">Spelunker Skull</a> I couldn't stop and I wanted to use what I had learned making that game in another game jam. The result is what I feel is a more polished game which is (probably) more fun to play and certainly more accessible. I feel it is lacking depth but I plan to continue working on it and remedy that! If you want to keep up be sure to subscribe to my <a href="https://parkerbacall.substack.com/" rel=”noopener noreferrer” target="_blank">newsletter</a> and follow me on <a href="https://butterygood.itch.io/" rel=”noopener noreferrer” target="_blank">itch.io</a>.</p><br/><p>Demon Escape was made in 9 days for the <a href="https://itch.io/jam/gdevelop-big-game-jam-5" rel=”noopener noreferrer” target="_blank"" >Gdevelop BIG Game Jam 5</a>. I Made it using <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop </a>. Check out the full game page on <a href="https://butterygood.itch.io/demon-escape" rel=”noopener noreferrer” target="_blank">itch.io</a>. Scroll down to play in browser the game will work in mobile but only on <a href="https://butterygood.itch.io/demon-escape" rel=”noopener noreferrer” target="_blank">itch.io</a> and in landscape mode. May 2024.</p>`,
+    embed:<iframe frameborder="0" src="https://itch.io/embed-upload/10519582?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/demon-escape">Play Demon Escape on itch.io</a></iframe>,
+    year: 2024,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1717972507/cover_3_li342j.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717973646/Screenshot_2024-06-09_at_2.24.53_PM_emfdvy.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717973645/Screenshot_2024-06-09_at_2.13.57_PM_ckdg6v.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717973647/Screenshot_2024-06-09_at_2.25.29_PM_soz4cl.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717973972/Screenshot_2024-06-09_at_2.25.46_PM_uwb4qb.png'],
+    title: 'Spelunker Skull',
+    handle: "/spelunker-skull",
+    categories: ['games'],
+    description: `<p>This skull is on the hunt for treasure in a dark dungeon. Collect power for your lantern. Try not to die and see what you can find!</p><br/> <p>This being my second game I wanted to expand my scope. WHile it is rough around the edges I feel like I accomplished a lot more in building a setting. I am continuing to work on this and hope to expand even further. If you want to keep up be sure to subscribe to my <a href="https://parkerbacall.substack.com/" rel=”noopener noreferrer” target="_blank">newsletter</a> and follow me on <a href="https://butterygood.itch.io/" rel=”noopener noreferrer” target="_blank">itch.io</a>.</p><br/><p>Spelunker Skull was made in two weeks for the <a href="https://itch.io/jam/gamedevjs-2024" rel=”noopener noreferrer” target="_blank"" >gamedev.js 2024 game jam</a>. I Made it using <a href="https://phaser.io/" rel=”noopener noreferrer” target="_blank"> Phaser </a>. You can checkout out the code <a href="https://github.com/ParkerBacall/Spelunker_Skull" rel=”noopener noreferrer” target="_blank">here</a> and the full game page on <a href="https://butterygood.itch.io/spelunker-skull" rel=”noopener noreferrer” target="_blank">itch.io</a>. Scroll down to play in browser but please note the game will not work on mobile. April 2024.</p>`,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/10277424?color=ffffff" allowfullscreen="" width="1280" height="670"><a href="https://butterygood.itch.io/spelunker-skull">Play Spelunker Skull on itch.io</a></iframe>,
+    year: 2024,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1717890567/Tentancle_Trimumph_title_24_mueefd.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717972025/Screenshot_2024-06-09_at_2.19.18_PM_k0f7n7.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717972025/Screenshot_2024-06-09_at_2.19.18_PM_k0f7n7.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717972025/Screenshot_2024-06-09_at_2.19.58_PM_oyp0xt.png'],
+    title: 'Tentacle Triumph',
+    handle: "/tentacle-triumph",
+    categories: ['games'],
+    description: `<p>Tentacle Trimumph is the fist game I developed. I made it in two weeks for the <a href="https://itch.io/jam/gamedevjs-2023 rel=”noopener noreferrer” target="_blank"" >gamedev.js 2023 game jam</a>. I Made it using <a href="https://phaser.io/" rel=”noopener noreferrer” target="_blank"> Phaser </a>. You can checkout out the code  <a href="https://github.com/ParkerBacall/HTML5-GameJam" rel=”noopener noreferrer” target="_blank">here</a> and the full game page on <a href="https://butterygood.itch.io/tentacle-triumph" rel=”noopener noreferrer” target="_blank">itch.io</a>. Scroll down to play in browser but please note the game will not work on mobile. April 2023.</p>`,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/10628147?color=333333" allowfullscreen="" width="1210" height="580"><a href="https://butterygood.itch.io/tentacle-triumph">Play Tentacle Triumph on itch.io</a></iframe>,
+    year: 2023,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712445947/march_2024_cover_kbubjf.jpg','https://res.cloudinary.com/dpdnba5be/image/upload/v1712445945/march_2024_back_s5vnrt.jpg'],
     title: 'March 2024 Sketchbook',
     handle: "/march-2024-sketchbook",
@@ -780,12 +807,12 @@ export const images = [
   },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1686879046/IMG_0206_jesivd.jpg'],
-    title: 'Univited',
+    title: 'Uninvited',
     handle: "/uninvited",
     categories: ['murals', 'home'],
     medium: 'Spray Paint on wall',
     description: `<p>.Location not to be disclosed. 2021.</p>`,
-    year: 2018,
+    year: 2021,
   },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1686879044/IMG_0977_hhhyew.jpg'],
@@ -1496,7 +1523,7 @@ export const images = [
     handle: "/catalyst",
     categories: ['illustrations'],
     medium: 'Illustration',
-    description: `<p>2017.</p>`,
+    description: `<p>2016.</p>`,
     year: 2016,
   },
   {

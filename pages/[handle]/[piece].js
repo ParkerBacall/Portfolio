@@ -83,6 +83,7 @@ export default function DynamicPage() {
     }
 
     return (
+        <div className="flex items-center flex-col">
         <div className="flex flex-col lg:flex-row w-[100%]">
             <div className="w-full lg:w-[50%] p-4">
                 {images}
@@ -139,5 +140,10 @@ export default function DynamicPage() {
                 </div>
             </div>
         </div>
+        {pageData?.categories?.includes('games') && pageData?.embed && (
+            pageData.embed
+        )}
+        </div>
+
     )
 }
