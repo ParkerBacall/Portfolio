@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
           <NavItem title="Prints" link="/prints" />
           <NavItem title="Designs " link="/designs" />
           <NavItem title="Murals" link="/murals" />
-          <NavItem title="Interactive" link="https://butterygood.itch.io/tentacle-triumph" />
+          <NavItem title="Games" link="/games" />
           <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
           <NavItem title="About" link="/about" />
         </aside>

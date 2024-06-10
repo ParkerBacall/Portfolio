@@ -34,7 +34,7 @@ export default function Header({ handleMenuToggle, isMenuOpen }) {
                     <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
                     <NavItem title="About" link="/about" />
                 </ul>
-            </nav >
+            </nav>
         </>
     )
 }
