@@ -5,6 +5,38 @@
 
 export const images = [
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1726673983/879a2984-49e1-466c-94c5-e69fab1c055a_1280x1280_mvh0fr.png','https://res.cloudinary.com/dpdnba5be/image/upload/v1726673983/8af83d58-da5a-437f-a4e7-d9e2570c0249_1280x1280_skezis.png'],
+    title: 'September 2024 Sketchbook',
+    handle: "/september-2024-sketchbook",
+    categories: ['paintings', 'home'],
+    medium: 'Arcrylic on Sketchbook',
+    description: `<p>Both sides of my September 2024 Sketchbook, XL!</p>`,
+    year: 2024,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/9a9ea3bb-7282-4b5c-8457-0c0def84111b_2048x2048_flgzhv.jpg'],
+    title: 'Crooks',
+    handle: "/crooks",
+    categories: ['digital-illustrations','home'],
+    medium: 'Digital Illustraition',
+    description: `<p>Character concepts for  <a href="https://www.crookware.com/" rel=”noopener noreferrer” target="_blank">Crookware</a>, an independent record Label. August 2024</p>`,
+    year: 2024,
+  },
+  {
+    images: [ 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/e654b730-b26d-4b0d-8b6f-e8a9cbf3c930_2546x1432_avc0tg.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/717d1db0-1125-40cf-bada-eae0799a72a2_2544x1434_dvkth9.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673989/8ccf1ead-a130-4cc1-b152-0792e6032305_2560x1436_pwjdyp.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/fec258d1-23f2-4b25-80dc-999c2502d61f_2544x1434_taq7l2.png'],
+    title: 'Demon Scales',
+    handle: "/demon-scales",
+    categories: ['games', 'home'],
+    description: `<p>This demon is trapped in the forest and needs to scale his way back to hell</p><br/> <p> My submission to the <a href="https://itch.io/jam/gmtk-2024" rel=”noopener noreferrer” target="_blank"> 2024 GMTK game jam</a>! The theme was Built to Scale! </p><br/> <p> Made in GDevelop in 4 days! </p>
+    <br/><p>Asset credits:</p>
+    <br/><p>-&nbsp;<a href="https://lazyteastudios.itch.io/base-forest-tileset-16x16" target="_blank" data-redactor-span="true">LazyTeaStudios Base Forest Tile sets</a></p>
+    <br/><p>-&nbsp;<a href="https://free-game-assets.itch.io/free-summer-pixel-art-backgrounds" target="_blank" data-redactor-span="true">Free Game Assets Free Summer Pixel Backgrounds</a></p>
+    </br><p>-&nbsp;<a href="https://alexs-assets.itch.io/" target="_blank" data-redactor-span="true">Mushroom Alex's assets</a></p>
+    </br><p>August 2024</p>`,
+    embed:<iframe frameborder="0" src="https://itch.io/embed-upload/11235345?color=fef9cc" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/demon-scales">Play Demon Scales on itch.io</a></iframe>,
+    year: 2024,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1717972507/itch-title2_ffes2x.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974062/Screenshot_2024-05-27_at_11.50.57_AM_dmxcs5.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974063/Screenshot_2024-05-27_at_11.51.08_AM_sprc2z.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974297/Screenshot_2024-05-27_at_11.50.43_AM_xrfuwa.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974063/Screenshot_2024-05-27_at_11.51.24_AM_nirx61.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1717974058/Screenshot_2024-05-28_at_5.21.24_PM_tlqla7.png'],
     title: 'Demon Escape',
     handle: "/demon-escape",
@@ -49,15 +81,15 @@ export const images = [
     description: `<p>Made this for my Dad for his birthday. March 2024.</p>`,
     year: 2024,
   },
-  {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189720/Untitled_Artwork_3_avdyz5.png' ],
-    title: 'Pixel Skull',
-    handle: "/pixel-skull",
-    categories: ['digital-illustrations'],
-    medium: 'Pixel Art',
-    description: `<p> One of my first attempts at making a character in pixel art! March 2024.</p>`,
-    year: 2024,
-  },
+  // {
+  //   images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189720/Untitled_Artwork_3_avdyz5.png' ],
+  //   title: 'Pixel Skull',
+  //   handle: "/pixel-skull",
+  //   categories: ['digital-illustrations'],
+  //   medium: 'Pixel Art',
+  //   description: `<p> One of my first attempts at making a character in pixel art! March 2024.</p>`,
+  //   year: 2024,
+  // },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189489/Parker_No_Utopia_Cover_Poem_bsteh2.png' ],
     title: 'No Uptopia Poem',
