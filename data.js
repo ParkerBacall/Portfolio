@@ -23,7 +23,7 @@ export const images = [
     year: 2024,
   },
   {
-    images: [ 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/e654b730-b26d-4b0d-8b6f-e8a9cbf3c930_2546x1432_avc0tg.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/717d1db0-1125-40cf-bada-eae0799a72a2_2544x1434_dvkth9.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673989/8ccf1ead-a130-4cc1-b152-0792e6032305_2560x1436_pwjdyp.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/fec258d1-23f2-4b25-80dc-999c2502d61f_2544x1434_taq7l2.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1728145562/Demon_Scales_title_bnrycl.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/e654b730-b26d-4b0d-8b6f-e8a9cbf3c930_2546x1432_avc0tg.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/717d1db0-1125-40cf-bada-eae0799a72a2_2544x1434_dvkth9.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673989/8ccf1ead-a130-4cc1-b152-0792e6032305_2560x1436_pwjdyp.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/fec258d1-23f2-4b25-80dc-999c2502d61f_2544x1434_taq7l2.png'],
     title: 'Demon Scales',
     handle: "/demon-scales",
     categories: ['games', 'home'],
