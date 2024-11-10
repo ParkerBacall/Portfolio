@@ -10,6 +10,8 @@ export const images = [
     handle: "/mana-tower",
     categories: ['games', 'home'],
     description: `<p>Scale the tower and help our little Wizard find his precious Mana stone.</p><br/>
+        <p> <strong>Not playable on mobile devices</strong></p><br/>
+
     <p> Watch out for terrifying creatures! </p><br/>
     <p>Use the arrow keys to move and the space bar to jump.</p><br/>
     <p>Press x to fire a spell.</p><br/>
@@ -17,7 +19,7 @@ export const images = [
     <p> My submission to the <a href="https://itch.io/jam/1-bit-jam-4" rel=”noopener noreferrer” target="_blank"> 2024 1-Bit Game Jam</a>! The theme was Tower and I was additionally challenged to use only two colors! </p><br/> <p> Made in <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop</a> </p>
    
    `,
-    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/11700151?color=000000" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/mana-tower">Play Mana Tower on itch.io</a></iframe>,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/11957602?color=000000" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/mana-tower">Play Mana Tower on itch.io</a></iframe>,
     year: 2024,
   },
   {
