@@ -5,7 +5,23 @@
 
 export const images = [
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1726673983/879a2984-49e1-466c-94c5-e69fab1c055a_1280x1280_mvh0fr.png','https://res.cloudinary.com/dpdnba5be/image/upload/v1726673983/8af83d58-da5a-437f-a4e7-d9e2570c0249_1280x1280_skezis.png'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1729469693/sqaure_xuwrpm.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1731279228/4_diunul.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1731279228/5_mcdyf0.png'],
+    title: 'Mana Tower',
+    handle: "/mana-tower",
+    categories: ['games', 'home'],
+    description: `<p>Scale the tower and help our little Wizard find his precious Mana stone.</p><br/>
+    <p> Watch out for terrifying creatures! </p><br/>
+    <p>Use the arrow keys to move and the space bar to jump.</p><br/>
+    <p>Press x to fire a spell.</p><br/>
+   <p>Tread carefully as your spell is on a one-second cooldown and falling leads to certain death!</p><br/>
+    <p> My submission to the <a href="https://itch.io/jam/1-bit-jam-4" rel=”noopener noreferrer” target="_blank"> 2024 1-Bit Game Jam</a>! The theme was Tower and I was additionally challenged to use only two colors! </p><br/> <p> Made in <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop</a> </p>
+   
+   `,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/11700151?color=000000" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/mana-tower">Play Mana Tower on itch.io</a></iframe>,
+    year: 2024,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1726673983/879a2984-49e1-466c-94c5-e69fab1c055a_1280x1280_mvh0fr.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1726673983/8af83d58-da5a-437f-a4e7-d9e2570c0249_1280x1280_skezis.png'],
     title: 'September 2024 Sketchbook',
     handle: "/september-2024-sketchbook",
     categories: ['paintings', 'home'],
@@ -17,7 +33,7 @@ export const images = [
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1726673990/9a9ea3bb-7282-4b5c-8457-0c0def84111b_2048x2048_flgzhv.jpg'],
     title: 'Crooks',
     handle: "/crooks",
-    categories: ['digital-illustrations','home'],
+    categories: ['digital-illustrations', 'home'],
     medium: 'Digital Illustraition',
     description: `<p>Character concepts for  <a href="https://www.crookware.com/" rel=”noopener noreferrer” target="_blank">Crookware</a>, an independent record Label. August 2024</p>`,
     year: 2024,
@@ -27,13 +43,13 @@ export const images = [
     title: 'Demon Scales',
     handle: "/demon-scales",
     categories: ['games', 'home'],
-    description: `<p>This demon is trapped in the forest and needs to scale his way back to hell</p><br/> <p> My submission to the <a href="https://itch.io/jam/gmtk-2024" rel=”noopener noreferrer” target="_blank"> 2024 GMTK game jam</a>! The theme was Built to Scale! </p><br/> <p> Made in GDevelop in 4 days! </p>
+    description: `<p>This demon is trapped in the forest and needs to scale his way back to hell</p><br/> <p> My submission to the <a href="https://itch.io/jam/gmtk-2024" rel=”noopener noreferrer” target="_blank"> 2024 GMTK game jam</a>! The theme was Built to Scale! </p><br/> <p> Made in <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop</a> in 4 days! </p>
     <br/><p>Asset credits:</p>
     <br/><p>-&nbsp;<a href="https://lazyteastudios.itch.io/base-forest-tileset-16x16" target="_blank" data-redactor-span="true">LazyTeaStudios Base Forest Tile sets</a></p>
     <br/><p>-&nbsp;<a href="https://free-game-assets.itch.io/free-summer-pixel-art-backgrounds" target="_blank" data-redactor-span="true">Free Game Assets Free Summer Pixel Backgrounds</a></p>
     </br><p>-&nbsp;<a href="https://alexs-assets.itch.io/" target="_blank" data-redactor-span="true">Mushroom Alex's assets</a></p>
     </br><p>August 2024</p>`,
-    embed:<iframe frameborder="0" src="https://itch.io/embed-upload/11235345?color=fef9cc" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/demon-scales">Play Demon Scales on itch.io</a></iframe>,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/11235345?color=fef9cc" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/demon-scales">Play Demon Scales on itch.io</a></iframe>,
     year: 2024,
   },
   {
@@ -42,7 +58,7 @@ export const images = [
     handle: "/demon-escape",
     categories: ['games', 'home'],
     description: `<p>Navigate this demon out of a collapsing building before the time runs out! Watch out for falling debris and unstable platforms! Try for a High Score on the Leaderboards!</p><br/> <p>After I finished <a href="https://www.parkerbacallart.com/games/spelunker-skull" rel=”noopener noreferrer” target="_blank">Spelunker Skull</a> I couldn't stop and I wanted to use what I had learned making that game in another game jam. The result is what I feel is a more polished game which is (probably) more fun to play and certainly more accessible. I feel it is lacking depth but I plan to continue working on it and remedy that! If you want to keep up be sure to subscribe to my <a href="https://parkerbacall.substack.com/" rel=”noopener noreferrer” target="_blank">newsletter</a> and follow me on <a href="https://butterygood.itch.io/" rel=”noopener noreferrer” target="_blank">itch.io</a>.</p><br/><p>Demon Escape was made in 9 days for the <a href="https://itch.io/jam/gdevelop-big-game-jam-5" rel=”noopener noreferrer” target="_blank"" >Gdevelop BIG Game Jam 5</a>. I Made it using <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop </a>. Check out the full game page on <a href="https://butterygood.itch.io/demon-escape" rel=”noopener noreferrer” target="_blank">itch.io</a>. Scroll down to play in browser the game will work in mobile but only on <a href="https://butterygood.itch.io/demon-escape" rel=”noopener noreferrer” target="_blank">itch.io</a> and in landscape mode. May 2024.</p>`,
-    embed:<iframe frameborder="0" src="https://itch.io/embed-upload/10519582?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/demon-escape">Play Demon Escape on itch.io</a></iframe>,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/10519582?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/demon-escape">Play Demon Escape on itch.io</a></iframe>,
     year: 2024,
   },
   {
@@ -64,7 +80,7 @@ export const images = [
     year: 2023,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712445947/march_2024_cover_kbubjf.jpg','https://res.cloudinary.com/dpdnba5be/image/upload/v1712445945/march_2024_back_s5vnrt.jpg'],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712445947/march_2024_cover_kbubjf.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1712445945/march_2024_back_s5vnrt.jpg'],
     title: 'March 2024 Sketchbook',
     handle: "/march-2024-sketchbook",
     categories: ['paintings'],
@@ -91,7 +107,7 @@ export const images = [
   //   year: 2024,
   // },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189489/Parker_No_Utopia_Cover_Poem_bsteh2.png' ],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189489/Parker_No_Utopia_Cover_Poem_bsteh2.png'],
     title: 'No Uptopia Poem',
     handle: "/no-utopia-poem",
     categories: ['poems',],
@@ -100,7 +116,7 @@ export const images = [
     year: 2024,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189479/1_ebo3lm.jpg' ],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1712189479/1_ebo3lm.jpg'],
     title: 'No Uptopia',
     handle: "/no-utopia",
     categories: ['digital-illustrations', 'home'],
@@ -136,7 +152,7 @@ export const images = [
     year: 2024,
   },
   {
-    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478564/Venom_a4xewj.jpg' ],
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1708478564/Venom_a4xewj.jpg'],
     title: 'Thank You for the Venom',
     handle: "/venom",
     categories: ['illustrations'],
