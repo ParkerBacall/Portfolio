@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import ImageGrid from '../components/ImageGrid'
 import { images } from '../data.js'
+
 export default 
  function Home() {
 
