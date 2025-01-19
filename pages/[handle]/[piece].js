@@ -5,8 +5,25 @@ import Image from 'next/image.js';
 import { useState, useEffect } from 'react';
 import Link from 'next/link'
 
+
+const keyStr =
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
+
+    const triplet = (e1, e2, e3) =>
+        keyStr.charAt(e1 >> 2) +
+        keyStr.charAt(((e1 & 3) << 4) | (e2 >> 4)) +
+        keyStr.charAt(((e2 & 15) << 2) | (e3 >> 6)) +
+        keyStr.charAt(e3 & 63)
+
+    const rgbDataURL = (r, g, b) =>
+        `data:image/gif;base64,R0lGODlhAQABAPAA${triplet(0, r, g) + triplet(b, 255, 255)
+        }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`
+
+
 export default function DynamicPage() {
     const { query } = useRouter();
+    const placeholder = rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))
+
 
     const pageData = getImageByHandle(query.piece)
 
@@ -29,18 +46,6 @@ export default function DynamicPage() {
     let prevHandle, nextHandle, category = ''
     let secondaryCategory = null
 
-    const keyStr =
-        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
-
-    const triplet = (e1, e2, e3) =>
-        keyStr.charAt(e1 >> 2) +
-        keyStr.charAt(((e1 & 3) << 4) | (e2 >> 4)) +
-        keyStr.charAt(((e2 & 15) << 2) | (e3 >> 6)) +
-        keyStr.charAt(e3 & 63)
-
-    const rgbDataURL = (r, g, b) =>
-        `data:image/gif;base64,R0lGODlhAQABAPAA${triplet(0, r, g) + triplet(b, 255, 255)
-        }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`
 
     if (useRouter().isReady) {
         prevHandle = '/' + query.handle + imagesArray.sort((a, b) => b.year - a.year)[currentIndex - 1]?.handle
@@ -58,7 +63,7 @@ export default function DynamicPage() {
                 width={500}
                 height={500}
                 alt={pageData?.title}
-                blurDataURL={rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))}
+                blurDataURL={placeholder}
                 placeholder='blur'
                 style={{
                     objectFit: "cover",
