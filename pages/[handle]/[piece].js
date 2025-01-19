@@ -19,10 +19,11 @@ const keyStr =
         `data:image/gif;base64,R0lGODlhAQABAPAA${triplet(0, r, g) + triplet(b, 255, 255)
         }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`
 
+        const placeholder = rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))
+
 
 export default function DynamicPage() {
     const { query } = useRouter();
-    const placeholder = rgbDataURL((Math.random() * 255), (Math.random() * 255), (Math.random() * 255))
 
 
     const pageData = getImageByHandle(query.piece)
