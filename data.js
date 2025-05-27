@@ -5,6 +5,74 @@
 
 export const images = [
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302024/square_gevuqp.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1748302964/1-17_dragged_bfvlzv.tiff', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1748302962/2-26_dragged_gvqgjy.tiff', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1748302962/2-33_dragged_k6rwln.tiff'],
+    title: 'Shredder Skull',
+    handle: "/shredder-skull",
+    categories: ['games', 'home'],
+    description: `<p>Shred the City!.</p><br/>
+    <p> <strong>Not playable on mobile devices</strong></p><br/>
+    <p>A game by Parker Bacall, music by Dr. Chris Dennison</p><br/>
+    <p> My submission to the <a href="https://itch.io/jam/gamedevjs-2025" rel=”noopener noreferrer” target="_blank"> 2025 Game Dev JS Game Jam</a>! The theme was balance! I placed 72nd overall! </p><br/> <p> Made in <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop</a> </p>
+   
+   `,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/13739307?color=333333" allowfullscreen="" width="800" height="620"><a href="https://butterygood.itch.io/shredder-skull">Play Shredder Skull on itch.io</a></iframe>,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302547/Untitled_Artwork_3_copy_3_q336bb.png'],
+    title: 'Going West',
+    handle: "/going-west",
+    categories: ['digital-illustrations', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Digital illustraition on photo taken a <a href="https://franklloydwright.org/" rel=”noopener noreferrer” target="_blank">Frank Lyod Wright's</a> <a rel=”noopener noreferrer” target="_blank" href="https://franklloydwright.org/taliesin-west" >Taliesin West Studio</a>. May 2025 </p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302795/IMG_7987_vfbl9p.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1748302808/IMG_7988_ufuut0.png'],
+    title: 'April 2025 Sketchbook',
+    handle: "/april-2025-sketchbook",
+    categories: ['paintings', 'home'],
+    medium: 'Arcrylic on Sketchbook',
+    description: `<p>Both sides of my April 2025 Sketchbook! Used for Daily drawings</p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302538/Untitled_Artwork_3_copy_2_fxlwgs.png'],
+    title: 'Spring Flowers',
+    handle: "/Spring Flowers",
+    categories: ['digital-illustrations', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Flyer for Flea Market. March 2025</p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302535/Untitled_Artwork_3_copy_tifxpc.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1748303805/Untitled_Artwork_2_lqfojy.png'],
+    title: 'Edgar Markov',
+    handle: "/edgar Markov",
+    categories: ['digital-illustrations', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Art for a custom Edgar Markov Magic the gathering card!</p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302532/Untitled_Artwork_4_zemsah.png'],
+    title: 'Horror Night',
+    handle: "/horror-night",
+    categories: ['digital-illustrations', 'home'],
+    medium: 'Digital Illustration',
+    description: `<p>Digital illustraition on photo for my favorite horror fan showing off some of our favourite movie monsters! </p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1748302801/IMG_7984_iipk85.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1748302798/IMG_7985_nsd1fv.png'],
+    title: 'January 2025 Sketchbook',
+    handle: "/january-2025-sketchbook",
+    categories: ['paintings', 'home'],
+    medium: 'Arcrylic on Sketchbook',
+    description: `<p>Both sides of my January 2025 Sketchbook! Used for Daily drawings</p>`,
+    year: 2025,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1736720608/Untitled_Artwork_40_fauvnd.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1736720968/IMG_7006_bdihlc.png'],
     title: "Zombie Token",
     handle: "/zombie-token",
