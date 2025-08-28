@@ -18,8 +18,8 @@
     "fast-average-color": "^9.3.0",
     "keen-slider": "^6.8.5",
     "next": "^14.1.4",
-    "react": "^22.18.0",
-    "react-dom": "^22.18.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router": "^7.1.1"
   },
   "devDependencies": {
