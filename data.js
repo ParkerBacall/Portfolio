@@ -3,7 +3,16 @@
 // get all category and link to next one
 
 
-export const images = [
+export const images = [  
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1760907020/Untitled_Artwork_20_lmsued.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1760907301/IMG_9518-2_sbvena.png'],
+    title: "Specimin",
+    handle: "/Specimin",
+    categories: ['home', 'designs'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Screen print design, September 2025 </p>`,
+    year: 2025,
+  },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1760905434/IMG_9486_kkhvzy.png'],
     title: "I like Giants",
@@ -11,6 +20,15 @@ export const images = [
     categories: ['home', 'paintings'],
     medium: 'Acrylic on Canvas',
     description: `<p>Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Tiny Giants' Exhibition September 2025 </p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1760907018/Untitled_Artwork_21_fhvitv.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1760907293/IMG_9518_wfjosn.png'],
+    title: "Runner's High",
+    handle: "/runners-high",
+    categories: ['home', 'designs'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Screen print design for all the runners! September 2025 </p>`,
     year: 2025,
   },
   {
