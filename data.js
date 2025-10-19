@@ -5,12 +5,30 @@
 
 export const images = [
   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1760905434/IMG_9486_kkhvzy.png'],
+    title: "I like Giants",
+    handle: "/i-like-giants",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Tiny Giants' Exhibition September 2025 </p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1760905574/IMG_9448_hqd12s.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1760905146/IMG_9484_kvpcyh.pngs'],
+    title: "Kind Giant",
+    handle: "/kind-giant",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Tiny Giants' Exhibition September 2025 </p>`,
+    year: 2025,
+  },
+  {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1756959392/Untitled_Artwork_copy_ckdiqg.png'],
     title: "Disposable Everything",
     handle: "/disposable-everything",
     categories: ['home', 'digital-illustrations'],
     medium: 'Digital Illustration',
-    description: `<p>Digital illustraition on photo taken film photo taken at Echo Park Lake in Los Angeles, CA. Feature in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Art of Echo Park' Exhibition July 2025 </p>`,
+    description: `<p>Digital illustraition on photo taken film photo taken at Echo Park Lake in Los Angeles, CA. Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Art of Echo Park' Exhibition July 2025 </p>`,
     year: 2025,
   },
   {
