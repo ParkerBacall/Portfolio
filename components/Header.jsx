@@ -31,7 +31,7 @@ export default function Header({ handleMenuToggle, isMenuOpen }) {
                     <NavItem title="Murals" link="/murals" />
                     <NavItem title="Poems" link="/poems" />
                     <NavItem title="Games" link="/games" />
-                    <NavItem title="Screen Printing" link="https://www.sentimentalskull.com/" />
+                    <NavItem title="Screen Printing" link="https://www.instagram.com/sentimental.sku11/" />
                     <NavItem title="About" link="/about" />
                 </ul>
             </nav>
