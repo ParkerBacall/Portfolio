@@ -4,6 +4,65 @@
 
 
 export const images = [  
+    {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768886024/IMG_0719_mhlzyo.jpg'],
+    title: "Reunion",
+    handle: "/reunion",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Future Trippin'' Exhibition January 2026 </p>`,
+    year: 2026,
+  },
+    {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768953679/IMG_0296_yiur6w.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1768953676/IMG_0409_ukyct3.png'],
+    title: "Endless Love",
+    handle: "/endless-love",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en" rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Of The Sky' Exhibition December 2025 </p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768884776/Untitled_copy_bslocv.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1768884792/Screenshot_2026-01-04_at_2.59.06_PM_epreqq.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1768884795/Screenshot_2026-01-04_at_2.59.59_PM_ylrscq.png'],
+    title: 'Pest Control',
+    handle: "/Pest Control",
+    categories: ['games', 'home'],
+    description: `<p>Take Control of the pest infestation!.</p><br/>
+    <p> <strong>Not playable on mobile devices</strong></p><br/>
+    <p>A game by Parker Bacall</p><br/>
+    <p> My submission to the <a href="https://itch.io/jam/gdevelop-big-game-jam-8" rel=”noopener noreferrer” target="_blank"> Big Game Jam #8/a>! The theme was Take Control!</p><br/> <p> Made in <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop</a> </p>
+   `,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/15560896?color=b5fbb4" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/pest-control">Play Pest Control on itch.io</a></iframe>,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768884793/scan0156_jnbbaj.png'],
+    title: "Daily Ritual",
+    handle: "/daily-ritual",
+    categories: ['home', 'illustrations'],
+    medium: 'Illustration',
+    description: `<p>Did this drawing to wrap up three years of daily drawing at the end of 2025!</p>`,
+    year: 2025,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768884784/goblin_bmehia.png'],
+    title: "Mob Goblin",
+    handle: "/Mob Goblin",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Playing Card',
+    description: `<p>Miniture painting on Magic the Gathering™ token card.</p>`,
+    year: 2025,
+  },
+
+    {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768884800/IMG_0247_cgnfkz.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1768886099/IMG_0246_eav0ci.png'],
+    title: 'September 2025 Sketchbook',
+    handle: "/september-2025-sketchbook",
+    categories: ['paintings', 'home'],
+    medium: 'Arcrylic on Sketchbook',
+    description: `<p>Both sides of my September 2025 Sketchbook! Used for Daily drawings</p>`,
+    year: 2025,
+  },
   {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1760907020/Untitled_Artwork_20_lmsued.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1760907301/IMG_9518-2_sbvena.png'],
     title: "Specimin",
@@ -11,6 +70,15 @@ export const images = [
     categories: ['home', 'designs'],
     medium: 'Acrylic on Canvas',
     description: `<p>Screen print design, September 2025 </p>`,
+    year: 2025,
+  },
+   {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1768953671/ballon_rxnxzu.png'],
+    title: "Jolly Balloon",
+    handle: "/jolly-balloon",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Playing Card',
+    description: `<p>Miniture painting on Magic the Gathering™ token card.</p>`,
     year: 2025,
   },
   {
@@ -104,7 +172,6 @@ export const images = [
     <p> <strong>Not playable on mobile devices</strong></p><br/>
     <p>A game by Parker Bacall, music by Dr. Chris Dennison</p><br/>
     <p> My submission to the <a href="https://itch.io/jam/gamedevjs-2025" rel=”noopener noreferrer” target="_blank"> 2025 Game Dev JS Game Jam</a>! The theme was balance! I placed 72nd overall! </p><br/> <p> Made in <a href="https://gdevelop.io/" rel=”noopener noreferrer” target="_blank"> GDevelop</a> </p>
-   
    `,
     embed: <iframe frameborder="0" src="https://itch.io/embed-upload/13739307?color=333333" allowfullscreen="" width="800" height="620"><a href="https://butterygood.itch.io/shredder-skull">Play Shredder Skull on itch.io</a></iframe>,
     year: 2025,
