@@ -58,15 +58,22 @@ export default function About() {
                 </p>
 
                 <p className="p-2 text-[18px]">
-                    Illustrator, painter, and screen printer based in Los Angeles, CA. I am inspired by subculture, skateboarding, and self-expression. My work is bold in its presentation and meaning I leave things open-ended so that the viewer can fill in the gaps with their own experience.
+                    I like designing expressive characters and compositions that invite the viewer to imagine a wider world and story.
                 </p>
 
                 <p className="p-2 text-[18px]">
-                    I have been running a screenprinting project <a target="__blank" rel="noopener noreferrer" href="https://www.sentimentalskull.com/">Sentimental Skull</a> for around 2 years. With the focus of the project being on D.I.Y. every piece is conceptualized and hand screenprinted by me.
+                    I am looking to expand my work into comics, games, and animations!
                 </p>
 
                 <p className="p-2 text-[18px]">
-                    Recently I have been sharing my work at the Los Feliz Flea Market every other month. I am currently looking for ways to expand the reach of my work and imporve it&apos;s impact.
+                    I run a screenprinting project <a target="__blank" rel="noopener noreferrer" href="https://sentimentalskull.bigcartel.com/">Sentimental Skull</a>
+                </p>
+
+                <p className="p-2 text-[18px]">
+                    I consistantly show my work at <a target="__blank" rel="noopener noreferrer" href="https://www.instagram.com/ravensgalleryla/?hl=en">Raven's Gallery</a> in Echo Park
+                </p>
+                <p className="p-2 text-[18px]">
+                    I have a  <a target="__blank" rel="noopener noreferrer" href="https://parkerbacall.substack.com/">newsletter</a> where I share my work and process
                 </p>
 
                 <p className="p-2 text-[18px]">

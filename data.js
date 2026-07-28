@@ -4,6 +4,48 @@
 
 
 export const images = [  
+    {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1785176804/IMG_2921_t8dqqz_fsye9w.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1785176806/IMG_2872_lgokkl_d27j4k.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1785176810/IMG_2868_w5hnuu_leg819.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1785176805/IMG_2869_nrl50f_zbcsby.jpg'],
+    title: "Love Story",
+    handle: "/love-story",
+    categories: ['home', 'digital-illustrations', 'designs'],
+    medium: 'Sticker, Digital Illustration',
+    description: `<p>'Sticker's commisioned for my sisters wedding! June 2026 </p>`,
+    year: 2026,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1785176802/IMG_2580_obc78y_wdrixd.jpg'],
+    title: "Booger the Clown",
+    handle: "/booger-the-clown",
+    categories: ['home', 'paintings'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Featured in <a href="https://www.instagram.com/ravensgalleryla/?hl=en"  rel=”noopener noreferrer” target="_blank">Raven's Gallery's</a> 'Freak, Vintage Cirus Show' Exhibition May 2026 </p>`,
+    year: 2026,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1784164986/title_gbrdl6.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1784164972/Screenshot_2026-07-05_at_5.22.36_PM_tbqnz1.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1784164972/Screenshot_2026-07-05_at_5.33.29_PM_penesq.png', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1784164973/Screenshot_2026-07-05_at_5.33.42_PM_gzi91c.png'],
+    title: 'Machine Planet',
+    handle: "/machine-planet",
+    categories: ['games', 'home'],
+    description: `<p>You have crash-landed on an eerie planet.</p><br/>
+    <p>Your goal is to collect scrap to fix your ship .</p><br/>
+    <p>As you explore a seemingly empty planet populated by strange machines,  an uncanny dread sets in .</p><br/>
+    <p> <strong>Not playable on mobile devices</strong></p><br/>
+    <p>A game by Parker Bacall</p><br/>
+    <p> My submission to the <a href="https://itch.io/jam/gamedevjs-2026" rel=”noopener noreferrer” target="_blank"> Gamedev.js Jam 2026</a>! The theme was Machines!</p><br/> <p> Made in <a href="https://godotengine.org/" rel=”noopener noreferrer” target="_blank"> Godot.</a> </p>
+   `,
+    embed: <iframe frameborder="0" src="https://itch.io/embed-upload/17741666?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://butterygood.itch.io/machine-planet">Play Machine Planet on itch.io</a></iframe>,
+    year: 2026,
+  },
+  {
+    images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1785176808/IMG_2005_py1eus_sygwuh.jpg', 'https://res.cloudinary.com/dpdnba5be/image/upload/v1785176809/IMG_1991_x5aknq_wu3bby.jpg'],
+    title: "Titus Andronicus",
+    handle: "/titus-andronicus",
+    categories: ['home', 'prints'],
+    medium: 'Acrylic on Canvas',
+    description: `<p>Risograph, April 2026 </p>`,
+    year: 2026,
+  },
    {
     images: ['https://res.cloudinary.com/dpdnba5be/image/upload/v1776011216/IMG_1758_fqf3iu.jpg'],
     title: "Stitched Figures",
