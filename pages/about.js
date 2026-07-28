@@ -36,7 +36,7 @@ export default function About() {
     return (
         <div className="flex flex-col lg:flex-row w-[100%]">
             <div className="w-full lg:w-[50%] p-4">
-                <Image src="https://res.cloudinary.com/dpdnba5be/image/upload/v1680493703/meWithart_jtxpcm.png"
+                <Image src="https://res.cloudinary.com/dpdnba5be/image/upload/v1785242104/IMG_1798_2_ynr6ay.jpg"
                     width={500}
                     height={500}
                     alt="Artist with Painting"
@@ -70,7 +70,7 @@ export default function About() {
                 </p>
 
                 <p className="p-2 text-[18px]">
-                    I consistantly show my work at <a target="__blank" rel="noopener noreferrer" href="https://www.instagram.com/ravensgalleryla/?hl=en">Raven's Gallery</a> in Echo Park
+                    I consistantly show my work at <a target="__blank" rel="noopener noreferrer" href="https://www.instagram.com/ravensgalleryla/?hl=en">Raven&apos;s Gallery</a> in Echo Park
                 </p>
                 <p className="p-2 text-[18px]">
                     I have a  <a target="__blank" rel="noopener noreferrer" href="https://parkerbacall.substack.com/">newsletter</a> where I share my work and process
